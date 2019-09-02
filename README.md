@@ -1,5 +1,6 @@
 # danielcmcg.github.io
 
-##Using:
-Anime JS
-Octicons
+# Using:
+# Bootstrap
+## Anime JS
+## Octicons
