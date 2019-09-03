@@ -70,7 +70,6 @@ window.onload = function() {
             context.arc(this.x, this.y, this.radius, 0, Math.PI*2);
             
             this.antecipate();
-            context.arc(this.antcpX, this.antcpY, this.radius/2, 0, Math.PI*2);
             
             context.fillStyle = "#000";
             context.fill();
