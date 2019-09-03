@@ -10,7 +10,7 @@ window.onload = function() {
     }
 
     var armLength = 10;
-    var numberOfSegments = 30;
+    var numberOfSegments = Math.round(height/28);
 	var iks = IKSystem.create(width / 2, height / 2);
 	for(var i = 0; i < numberOfSegments; i++) {
 		iks.addArm(armLength);
@@ -78,7 +78,7 @@ window.onload = function() {
         antcpY: 0,
         antecipate: function(){
             var angle = Math.atan2(this.vy, this.vx);
-            var length = 200;
+            var length = width/10;
             this.antcpX = this.x + Math.cos(angle) * length;
             this.antcpY = this.y + Math.sin(angle) * length;
         }
@@ -152,9 +152,19 @@ window.onload = function() {
     }
     
     var floors = [];
-    var numberOffloors = 150;
+    var numberOffloors = 100;
     for(var i = 0; i < numberOfHolders; i++){
-        var x = Math.floor(Math.random() * width);
+        var x = Math.floor(Math.random() * width/2);
+        var y = height - Math.floor(Math.random() * height/5);
+        var min = 15;
+        var max = 70;  
+        var random = Math.floor(Math.random() * (+max - +min)) + +min;
+        var r = random;
+        
+        floors.push(floor.create(x, y, r));
+    }
+    for(var i = 0; i < numberOfHolders; i++){
+        var x = width - Math.floor(Math.random() * width/2);
         var y = height - Math.floor(Math.random() * height/5);
         var min = 15;
         var max = 70;  
