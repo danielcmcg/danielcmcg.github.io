@@ -4,18 +4,20 @@ var Arm = Arm || {
 	length: 100,
 	angle: 0,
 	parent: null,
-
-	create: function(x, y, length, angle) {
+    lineWidth: 5,
+    
+	create: function(x, y, length, angle, lineWidth) {
 		var obj = Object.create(this);
-		obj.init(x, y, length, angle);
+		obj.init(x, y, length, angle, lineWidth);
 		return obj;
 	},
 
-	init: function(x, y, length, angle) {
+	init: function(x, y, length, angle, lineWidth) {
 		this.x = x;
 		this.y = y;
 		this.length = length; 
 		this.angle = angle;
+        this.lineWidth = lineWidth;
 	},
 
 	getEndX: function() {
@@ -28,7 +30,7 @@ var Arm = Arm || {
 
 	render: function(context) {
 		context.strokeStyle = "#000000";
-		context.lineWidth = 5;
+		context.lineWidth = this.lineWidth;
 		context.beginPath();
 		context.moveTo(this.x, this.y);
 		context.lineTo(this.getEndX(), this.getEndY());

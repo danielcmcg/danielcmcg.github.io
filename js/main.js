@@ -13,27 +13,27 @@ window.onload = function() {
     var numberOfSegments = Math.round(height/30);
 	var iks = IKSystem.create(width / 2, height / 2);
 	for(var i = 0; i < numberOfSegments; i++) {
-		iks.addArm(armLength);
+		iks.addArm(armLength, numberOfSegments-i);
 	}
     
     var iks2 = IKSystem.create(width / 2, height / 2);
 	for(var i = 0; i < numberOfSegments; i++) {
-		iks2.addArm(armLength);
+		iks2.addArm(armLength, numberOfSegments-i);
 	}
     
     var iks3 = IKSystem.create(width / 2, height / 2);
 	for(var i = 0; i < numberOfSegments; i++) {
-		iks3.addArm(armLength);
+		iks3.addArm(armLength, numberOfSegments-i);
 	}
     
     var iks4 = IKSystem.create(width / 2, height / 2);
 	for(var i = 0; i < numberOfSegments; i++) {
-		iks4.addArm(armLength);
+		iks4.addArm(armLength, numberOfSegments-i);
 	}
 
     var iksMouse = IKSystem.create(width / 2, height / 2);
 	for(var i = 0; i < numberOfSegments; i++) {
-		iksMouse.addArm(armLength);
+		iksMouse.addArm(armLength, numberOfSegments-i);
 	}
     
     var ball = {
@@ -65,13 +65,22 @@ window.onload = function() {
                 this.vy *= this.bounce;
             }
         },
-        render: function(context){
+        render: function(context, mouseX, mouseY){
             context.beginPath();
             context.arc(this.x, this.y, this.radius, 0, Math.PI*2);
+            context.fillStyle = "#000";
+            context.fill();
             
             this.antecipate();
             
-            context.fillStyle = "#000";
+            var angle = Math.atan2(mouseY-this.y, mouseX-this.x);
+            var length = 15;
+            var x = this.x + Math.cos(angle) * length;
+            var y = this.y + Math.sin(angle) * length;
+            
+            context.beginPath();
+            context.arc(x, y, this.radius/3, 0, Math.PI*2);
+            context.fillStyle = "#fff";
             context.fill();
             
         },
@@ -130,7 +139,7 @@ window.onload = function() {
         }
     };
     
-    var numberOfHolders = 10;
+    var numberOfHolders = width/100;
     // half screen
     for(var i = 0; i < numberOfHolders; i++){
         var x = Math.floor(Math.random() * width/2);
@@ -177,6 +186,11 @@ window.onload = function() {
     
 	document.body.addEventListener("mousemove", function(event) {
 		mouse.x = event.clientX;
+        mouse.y = event.clientY;
+	});
+    
+    document.body.addEventListener("mousedown", function(event) {
+		 mouse.x = event.clientX;
         mouse.y = event.clientY;
 	});
 
@@ -275,34 +289,31 @@ window.onload = function() {
             floors[i].render(context);
         }
         
-        ball.render(context);
-        ball.update();
-        
         targets[0].findClosestHolder();
         
         if(targets[0].closestHolder){
-            iks.reach(targets[0].x, targets[0].y, ball.x+20, ball.y+20);
+            iks.reach(targets[0].x, targets[0].y, ball.x+15, ball.y+15);
             iks.render(context);
         }
         
         targets[1].findClosestHolder();
         
         if(targets[1].closestHolder){
-            iks2.reach(targets[1].x, targets[1].y, ball.x+20, ball.y-20);
+            iks2.reach(targets[1].x, targets[1].y, ball.x+15, ball.y-5);
             iks2.render(context);
         }
         
         targets[2].findClosestHolder();
         
         if(targets[2].closestHolder){
-            iks3.reach(targets[2].x, targets[2].y, ball.x-20, ball.y-20);
+            iks3.reach(targets[2].x, targets[2].y, ball.x-15, ball.y-5);
             iks3.render(context);
         }
         
         targets[3].findClosestHolder();
         
         if(targets[3].closestHolder){
-            iks4.reach(targets[3].x, targets[3].y, ball.x-20, ball.y+20);
+            iks4.reach(targets[3].x, targets[3].y, ball.x-15, ball.y+15);
             iks4.render(context);
         }
         
@@ -317,6 +328,9 @@ window.onload = function() {
             iksMouse.reach(targets[4].x, targets[4].y, ball.x, ball.y);
             iksMouse.render(context);
         }
+        
+        ball.render(context, mouse.x, mouse.y);
+        ball.update();
         
 		requestAnimationFrame(update);
 	}
