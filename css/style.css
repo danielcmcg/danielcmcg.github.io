@@ -9,5 +9,34 @@ a:hover { color: #3366CC; text-decoration: none}
 a:active { color: #000000; text-decoration: none}
 
 .img-circle {
-  border-radius: 50%;
+    border-radius: 50%;
+}
+
+html, body {
+    margin: 0px;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events:none;
+}
+
+.mouseArea{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
