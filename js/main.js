@@ -10,7 +10,7 @@ window.onload = function() {
     }
 
     var armLength = 10;
-    var numberOfSegments = Math.round(height/28);
+    var numberOfSegments = Math.round(height/30);
 	var iks = IKSystem.create(width / 2, height / 2);
 	for(var i = 0; i < numberOfSegments; i++) {
 		iks.addArm(armLength);
@@ -70,9 +70,11 @@ window.onload = function() {
             context.arc(this.x, this.y, this.radius, 0, Math.PI*2);
             
             this.antecipate();
+            context.arc(this.antcpX, this.antcpY, this.radius/2, 0, Math.PI*2);
             
             context.fillStyle = "#000";
             context.fill();
+            
         },
         antcpX: 0,
         antcpY: 0,
@@ -232,7 +234,14 @@ window.onload = function() {
             }
             else if(this.status == 'moving'){
                 this.distance = Math.sqrt(Math.pow(this.closestHolder.x-ball.antcpX,2) + Math.pow(this.closestHolder.y-ball.antcpY,2));
-                if(this.distance > (armLength*numberOfSegments)/0.7){
+                var antecipationConstant = 0;
+                if(height > width){
+                    antecipationConstant = 1.2;
+                }
+                else{
+                    antecipationConstant = 0.7;
+                }
+                if(this.distance > (armLength*numberOfSegments)/antecipationConstant){
                     this.status = 'fiding';
                     takenHolders = arrayRemove(takenHolders, this.closestHolderID);
                 }
@@ -259,9 +268,6 @@ window.onload = function() {
 	function update() {
 		context.clearRect(0, 0, width, height);
 		
-        ball.update();
-        ball.render(context);
-        
         for(var i = 0; i < holders.length; i++){
             holders[i].render(context);
         }
@@ -269,6 +275,9 @@ window.onload = function() {
         for(var i = 0; i < floors.length; i++){
             floors[i].render(context);
         }
+        
+        ball.render(context);
+        ball.update();
         
         targets[0].findClosestHolder();
         
