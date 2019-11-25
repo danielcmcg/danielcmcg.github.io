@@ -16,16 +16,24 @@ html, body {
     margin: 0px;
 }
 
+.jumbotron{
+    margin: 0 !important;
+}
+
+:target:before {
+content:"";
+display:block;
+height:90px; /* fixed header height*/
+margin:-90px 0 0; /* negative fixed header height */
+}
+
 canvas {
-    display: block;
-    position: absolute;
     top: 0px;
     left: 0px;
     pointer-events:none;
 }
 
 .mouseArea{
-    position: absolute;
     top: 0px;
     left: 0px;
     text-align: center;

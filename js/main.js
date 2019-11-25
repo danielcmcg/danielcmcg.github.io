@@ -1,16 +1,16 @@
 window.onload = function() {
 	var canvas = document.getElementById("canvas"),
 	context = canvas.getContext("2d"),
-	width = canvas.width = window.innerWidth,
-	height = canvas.height = window.innerHeight;
-
+	width = canvas.width = window.innerWidth-20,
+	height = canvas.height = 200;
+    
     var mouse = {
         x: 0,
         y: 0
     }
 
-    var armLength = 10;
-    var numberOfSegments = Math.round(height/30);
+    var armLength = 2.4;
+    var numberOfSegments = Math.round(height/5);
 	var iks = IKSystem.create(width / 2, height / 2);
 	for(var i = 0; i < numberOfSegments; i++) {
 		iks.addArm(armLength, numberOfSegments-i);
@@ -39,21 +39,21 @@ window.onload = function() {
     var ball = {
         x: 100,
         y: height/1.6,
-        vx: 1,
+        vx: 0.8,
         vy: 0,
-        radius: 30,
-        gravity: 0,
+        radius: 16,
+        gravity: 1,
         bounce: -1,
-        update: function(vyVar){
+        update: function(vyVar, mouseX){
             
             var idealDistFromGround = (numberOfSegments*armLength)*0.7;
             var actualDistFromGround = vyVar-this.y;
             
             if(idealDistFromGround > actualDistFromGround){
-                this.vy = -0.3;
+                this.vy = -0.2;
             }
             else{
-                this.vy = +0.3;
+                this.vy = +0.2;
             }
             
             this.x += this.vx;
@@ -86,12 +86,12 @@ window.onload = function() {
             this.antecipate();
             
             var angle = Math.atan2(mouseY-this.y, mouseX-this.x);
-            var length = 15;
+            var length = 12;
             var x = this.x + Math.cos(angle) * length;
             var y = this.y + Math.sin(angle) * length;
             
             context.beginPath();
-            context.arc(x, y, this.radius/3, 0, Math.PI*2);
+            context.arc(x, y, this.radius/4, 0, Math.PI*2);
             context.fillStyle = "#fff";
             context.fill();
         },
@@ -99,7 +99,7 @@ window.onload = function() {
         antcpY: 0,
         antecipate: function(){
             var angle = Math.atan2(this.vy, this.vx);
-            var length = width/10;
+            var length = width/25;
             this.antcpX = this.x + Math.cos(angle) * length;
             this.antcpY = this.y + Math.sin(angle) * length;
         }
@@ -111,21 +111,21 @@ window.onload = function() {
         y: 100,
         constantX: 0,
         constantY: 0,
-        radius: 20,
+        radius: 10,
         back: false,
         timer: false,
         update: function(mouseX, mouseY){
             
             var distanceFromMouse = Math.sqrt(Math.pow(this.x-mouseX,2) + Math.pow(this.y-mouseY,2));
             var t;
-            if(distanceFromMouse < 150){
+            if(distanceFromMouse < 45){
                 var angle = Math.atan2(mouseY-this.y, mouseX-this.x);
                 var length = 2;
                 var x = -Math.cos(angle) * length;
                 var y = -Math.sin(angle) * length;
                 
                 var distanceFromBegin = Math.sqrt(Math.pow(this.x-this.constantX,2) + Math.pow(this.y-this.constantY,2));
-                if(distanceFromMouse < 100 && distanceFromBegin < 100){
+                if(distanceFromMouse < 40 && distanceFromBegin < 40){
                     this.x += x;
                     this.y += y;
                 }
@@ -185,7 +185,7 @@ window.onload = function() {
     var numberOfHolders = width/30;
     for(var i = 0; i < numberOfHolders; i++){
         var x = i*(width/numberOfHolders);
-        var min = height/1.1;
+        var min = height/1.05;
         var max = height - (height/4);  
         var random = Math.floor(Math.random() * (+max - +min)) + +min;
         var y = random;
@@ -206,7 +206,7 @@ window.onload = function() {
     var target = {
         x: 0,
         y: 0,
-        v: 7,
+        v: 5,
         closestHolder: null,
         closestHolderID: 0,
         distance: 0,
@@ -257,10 +257,10 @@ window.onload = function() {
                 this.distance = Math.sqrt(Math.pow(this.closestHolder.x-ball.antcpX,2) + Math.pow(this.closestHolder.y-ball.antcpY,2));
                 var antecipationConstant = 0;
                 if(height > width){
-                    antecipationConstant = 1.2;
+                    antecipationConstant = 1;
                 }
                 else{
-                    antecipationConstant = 0.7;
+                    antecipationConstant = 0.9;
                 }
                 if(this.distance > (armLength*numberOfSegments)/antecipationConstant){
                     this.status = 'fiding';
@@ -287,40 +287,45 @@ window.onload = function() {
     update();
     
 	function update() {
+        
+        var mouseYpos = mouse.y-(window.innerHeight-height);
+        
 		context.clearRect(0, 0, width, height);
 		
         for(var i = 0; i < holders.length; i++){
             holders[i].render(context);
-            holders[i].update(mouse.x, mouse.y);
+            holders[i].update(mouse.x, mouseYpos);
         }
         
         targets[0].findClosestHolder();
         if(targets[0].closestHolder){
-            iks.reach(targets[0].x, targets[0].y, ball.x+15, ball.y+15);
+            iks.reach(targets[0].x, targets[0].y, ball.x+5, ball.y+5);
             iks.render(context);
         }
         
         targets[1].findClosestHolder();
         if(targets[1].closestHolder){
-            iks2.reach(targets[1].x, targets[1].y, ball.x+15, ball.y-5);
+            iks2.reach(targets[1].x, targets[1].y, ball.x+5, ball.y-5);
             iks2.render(context);
         }
         
         targets[2].findClosestHolder();
         if(targets[2].closestHolder){
-            iks3.reach(targets[2].x, targets[2].y, ball.x-15, ball.y-5);
+            iks3.reach(targets[2].x, targets[2].y, ball.x-5, ball.y-5);
             iks3.render(context);
         }
         
         targets[3].findClosestHolder();
         if(targets[3].closestHolder){
-            iks4.reach(targets[3].x, targets[3].y, ball.x-15, ball.y+15);
+            iks4.reach(targets[3].x, targets[3].y, ball.x-5, ball.y+5);
             iks4.render(context);
         }
         
-        var mouseDist = Math.sqrt(Math.pow(mouse.x-ball.x,2) + Math.pow(mouse.y-ball.y,2));
+        
+        
+        var mouseDist = Math.sqrt(Math.pow(mouse.x-ball.x,2) + Math.pow(mouseYpos-ball.y,2));
         if(mouseDist < (armLength*numberOfSegments)){
-            targets[4].update(mouse.x, mouse.y);
+            targets[4].update(mouse.x, mouseYpos);
             iksMouse.reach(targets[4].x, targets[4].y, ball.x, ball.y);
             iksMouse.render(context);
         }
@@ -330,7 +335,7 @@ window.onload = function() {
             iksMouse.render(context);
         }
         
-        ball.render(context, mouse.x, mouse.y);
+        ball.render(context, mouse.x, mouseYpos);
         
         var vy = 0;
         var meanSumOfY = 0;
@@ -342,7 +347,7 @@ window.onload = function() {
         }
         meanSumOfY = meanSumOfY/takenHolders.length;
         var groundDist = meanSumOfY;
-        ball.update(groundDist);
+        ball.update(groundDist, mouse.x);
         
 		requestAnimationFrame(update);
 	}

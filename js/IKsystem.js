@@ -18,7 +18,7 @@ init: function(x, y) {
 },
 
 addArm: function(length, lineWidth) {
-    var arm = Arm.create(0, 0, length, 0, lineWidth);
+    var arm = Arm.create(0, 0, length, 0, lineWidth/3);
     if(this.lastArm) {
         arm.x = this.lastArm.getEndX();
         arm.y = this.lastArm.getEndY();

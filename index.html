@@ -10,7 +10,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="icons.css">
+        <link rel="stylesheet" href="css/icons.css">
 
         <link rel="stylesheet" href="css/style.css">
 
@@ -24,10 +24,45 @@
 
         <div class="mouseArea">
 
-            <div style="height: 15%"></div>
             
-            <div>
-                
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" >
+              <a class="navbar-brand" href="#">
+                  <img width="30" height="30" class="d-inline-block align-top profile img-circle" alt="" src="images/profile.png">
+                  Daniel C Menezes
+                </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#assets">Assets</a>
+                  </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#wip">Work in Progress</a>
+                  </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                    
+                </ul>
+                  
+                  <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link" href="mailto:d.cavalcante.m@gmail.com"><i class="icon icon30 octicon-mail"></i> Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            
+            <div style="background-color: #5ce1e6">
+            
+                <div style="height: 5%"></div>
+            
                 <img height="100px" class="profile img-circle" src="images/profile.png">
                 
                 <h2 class="name">Daniel C Menezes</h2>
@@ -46,34 +81,76 @@
                 </a>
                 <br>
                 <br>
-                <div class="d-none d-md-block">
-                    <p class="mail">Get in touch:</p>
+
+            </div>
+
+            <div  class="jumbotron" id="assets">
+            <div class="container">
+                <h4><b>Assets</b></h4>
+            <div class="row justify-content-md-center">
+                <div class="col-sm-4">
+            <div class="card">
+                <img src="images/2DPhysicsDraw-cover.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">2D Phisics Draw With Collider for Unity</h5>
+                <p class="card-text">Easily draw lines with Rigidbody2D and Collider attached.</p>
+                <a href="http://u3d.as/otD" target="_blank" class="btn btn-light">Buy from Asset Store <i class="icon20 external-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="images/FunctionalDragDrop-cover.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Functional Drag and Drop for Unity</h5>
+                <p class="card-text">Functional Drag and Drop with Examples to be used on games or apps with settings for visual features and internal rules.</p>
+                <a href="http://u3d.as/1BZp" target="_blank" class="btn btn-light">Buy from Asset Store <i class="icon20 external-link"></i></a>
+              </div>
+            </div>
+          </div>
+                
+        </div>
+            </div>
+                </div>
+            
+            <div  class="jumbotron" style="background:transparent !important" id="wip">
+            <div class="container">
+            <h4><b>Work in progress</b></h4>
+                <p>Play Mode Blocks Engine for Unity</p>
+            <img src="images/wip/gif15.gif" width="50%">
+            </div>
+            </div>
+            
+            
+            <div  class="jumbotron" id="about">
+            <div class="container">
+                <h4><b>About</b></h4>
+                <p>I'm an Electrical Engineer with major in <strong>Control and Automation</strong>, I have knowledge on microprocessors, embedded programming, robotics, GIS systems and data analysis. I'm currently an autonomous developer and starting on the education field.
+                </p>
+                <p>
+                    On the <strong>Game Development</strong> area, I started with symbian and C in 2010. Begun creating projects for Unity in 2011 and have been improving ever since, I have developed projects with kinect, arduino and voice commanding, also participated in some Game Jams. The tools developed for Unity are mainly focused on scripting and I'm currently working on more tools.
+                </p>
+                
+                </div>
+            </div>
+            
+            <div>
+                <br>
+                <br>
+                    <h3 class="mail">Get in touch</h3>
+                <br>
                     <a href="mailto:d.cavalcante.m@gmail.com">
                         <i class="icon icon30 octicon-mail"></i>
                     </a>
+                d.cavalcante.m@gmail.com
                 </div>
-                
-            </div>
-
+            
+            <canvas id="canvas"></canvas>
             
         </div>
         
-        <canvas id="canvas"></canvas>
-
-        <div class="top d-md-none">
-            <p class="mail">Get in touch:</p>
-            <a href="mailto:d.cavalcante.m@gmail.com">
-                <i class="icon icon30 octicon-mail"></i>
-            </a>
-        </div>
-        
-        <div class="bottom">
-            <p>Move the pointer through (or touch on) the floor</p>
-            <p>Coded using Inverse Kinematics and some logic</p>
-        </div>
-        
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- jQuery, Popper.js, Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
