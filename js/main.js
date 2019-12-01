@@ -352,5 +352,3 @@ window.onload = function() {
 		requestAnimationFrame(update);
 	}
 }
-
-

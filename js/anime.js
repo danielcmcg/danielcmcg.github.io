@@ -32,3 +32,6 @@ icons[3].addEventListener('mouseleave', function(){ animateButton(icons[3], 1);}
 
 icons[4].addEventListener('mouseenter', function(){ animateButton(icons[4], hoverEnd);}, false);
 icons[4].addEventListener('mouseleave', function(){ animateButton(icons[4], 1);}, false);
+
+icons[5].addEventListener('mouseenter', function(){ animateButton(icons[4], hoverEnd);}, false);
+icons[5].addEventListener('mouseleave', function(){ animateButton(icons[4], 1);}, false);
