@@ -5,14 +5,14 @@ var icons = document.querySelectorAll('.icon');
 function animateButton(target, scale){
     anime.remove(target);
     anime({
-      targets: target,
-      keyframes: [
-        {scale: scale}
+        targets: target,
+        keyframes: [
+            {scale: scale}
 
-      ],
-      duration: 500,
-      easing: 'easeOutElastic(1, .5)',
-      loop: false
+        ],
+        duration: 500,
+        easing: 'easeOutElastic(1, .5)',
+        loop: false
     });
 }
 
