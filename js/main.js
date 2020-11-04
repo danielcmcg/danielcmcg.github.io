@@ -39,7 +39,7 @@ window.onload = function() {
     var ball = {
         x: 100,
         y: height/1.6,
-        vx: 0.8,
+        vx: 0.6,
         vy: 0,
         radius: 16,
         gravity: 1,
@@ -186,11 +186,11 @@ window.onload = function() {
     for(var i = 0; i < numberOfHolders; i++){
         var x = i*(width/numberOfHolders);
         var min = height/1.05;
-        var max = height - (height/4);  
+        var max = height - (height/4);
         var random = Math.floor(Math.random() * (+max - +min)) + +min;
         var y = random;
         var min = 10;
-        var max = 30;  
+        var max = 30;
         var random = Math.floor(Math.random() * (+max - +min)) + +min;
         var r = random;
 
@@ -352,4 +352,3 @@ window.onload = function() {
         requestAnimationFrame(update);
     }
 }
-

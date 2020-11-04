@@ -1,0 +1,9 @@
+### Minimalist GitHub Pages blog
+
+---
+This post is a test of a really, really **simple blog system for GitHub Pages**.
+It was made after seeing [Tom Quinn](https://thquinn.github.io/)'s blog framework [post](https://thquinn.github.io/blog.html?post=0),
+where he mention the use of a Markdown parser (in this case [Showdown](https://github.com/showdownjs/showdown)).
+
+It use text files written with Markdown syntax as posts, and a simple script to put things together: fetch the right post file based on the URL query string;
+read the file; pass it through the Markdown parser; place the result on the page.
