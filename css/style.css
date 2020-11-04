@@ -6,17 +6,11 @@
     background:#f9f9f9;
 }
 
-#PostBody{
-  padding-left: 10%;
-  padding-right: 10%;
-}
 #PostBody a { color: #3366CC; text-decoration: none}
 
 #PostDate{
   margin-bottom: -20px;
   font-size: 15px;
-  padding-left: 10%;
-  padding-right: 10%;
   font-style: italic;
 }
 
