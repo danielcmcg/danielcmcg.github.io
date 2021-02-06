@@ -1,6 +1,6 @@
 .main
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #222222;
 
     background:#f9f9f9;
@@ -12,6 +12,18 @@
   margin-bottom: -20px;
   font-size: 15px;
   font-style: italic;
+}
+
+.brandParent{
+  position: relative;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+}
+
+.brand{
+  position: absolute;
+  transform: translate(-50%);
 }
 
 .upper
