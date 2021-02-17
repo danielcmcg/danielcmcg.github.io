@@ -1,9 +1,8 @@
 .main
 {
     font-family: 'Ubuntu', sans-serif;
-    color: #222222;
-
-    background:#f9f9f9;
+    color: #000;
+    /* background-color: #ccc; */
 }
 
 #PostBody a { color: #3366CC; text-decoration: none}
@@ -33,7 +32,7 @@
 
 a:link { color: #000000; text-decoration: none}
 a:visited { color: #000000; text-decoration: none}
-a:hover { color: #3366CC; text-decoration: none}
+a:hover { color: #eee; text-decoration: none}
 a:active { color: #000000; text-decoration: none}
 
 .img-circle {
