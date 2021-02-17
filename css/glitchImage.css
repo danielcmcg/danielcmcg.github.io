@@ -42,12 +42,12 @@ body {
 @-webkit-keyframes glitch-anim-flash {
   0%, 5% {
     opacity: 0.5;
-    -webkit-transform: translate3d(3px, 2px, 0);
-    transform: translate3d(3px, 2px, 0); }
+    -webkit-transform: translate3d(.3vh, .2vh, 0);
+    transform: translate3d(.3vh, .2vh, 0); }
   5.5%, 10% {
     opacity: 0.5;
-    -webkit-transform: translate3d(-3px, 0, 0);
-    transform: translate3d(-3px, 0, 0); }
+    -webkit-transform: translate3d(-.3vh, 0, 0);
+    transform: translate3d(-.3vh, 0, 0); }
     10%, 100% {
       opacity: 0;
       -webkit-transform: translate3d(0, 0, 0);
@@ -57,12 +57,12 @@ body {
 @keyframes glitch-anim-flash {
   0%, 5% {
     opacity: 0.5;
-    -webkit-transform: translate3d(3px, 2px, 0);
-    transform: translate3d(3px, 2px, 0); }
+    -webkit-transform: translate3d(.3vh, .2vh, 0);
+    transform: translate3d(.3vh, .2vh, 0); }
   5.5%, 10% {
     opacity: 0.5;
-    -webkit-transform: translate3d(-3px, 0, 0);
-    transform: translate3d(-3px, 0, 0); }
+    -webkit-transform: translate3d(-.3vh, 0, 0);
+    transform: translate3d(-.3vh, 0, 0); }
     10%, 100% {
       opacity: 0;
       -webkit-transform: translate3d(0, 0, 0);
