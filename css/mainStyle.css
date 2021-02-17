@@ -59,7 +59,7 @@ html {
   position: fixed; /* Position them relative to the browser window */
   right: 0px; /* Position them outside of the screen */
   padding-right: 5px; /* 15px padding */
-  font-size: 20px; /* Increase font size */
+  font-size: 40px; /* Increase font size */
   }
 
 /* The about link: 20px from the top with a green background */
