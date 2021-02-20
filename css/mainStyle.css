@@ -9,6 +9,7 @@ html {
 
 .logoname
 {
+  margin-top: -.3em;
   font-size: 3.5em;
 }
 .logosubname
@@ -34,6 +35,7 @@ html {
 }
 .logoLinksContainer
 {
+  padding-top: 1em;
   padding-bottom: 10vh;
 }
 .arrowDown

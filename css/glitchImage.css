@@ -4,18 +4,20 @@ body {
   width: 100%;
 }
 
-@media only screen and (min-width: 600px)
+.ag-format-container
 {
+  position: relative;
+}
+
 .ag-glitch_item {
   background-color: transparent;
   background-blend-mode: normal;
   background: url("../images/YonderTreeCat.png") no-repeat center;
 
-  height: 40%;
+  height: 40vh;
   background-size: contain;
 
   position: absolute;
-  top: 22%;
   left: 5%;
   right: 5%;
   bottom: 5%;
@@ -46,29 +48,27 @@ body {
     opacity: 0.5;
     -webkit-transform: translate3d(3px, 2px, 0);
     transform: translate3d(3px, 2px, 0); }
-  5.5%, 10% {
-    opacity: 0.5;
-    -webkit-transform: translate3d(-3px, 0, 0);
-    transform: translate3d(-3px, 0, 0); }
-    10%, 100% {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0); }
-  }
+    5.5%, 10% {
+      opacity: 0.5;
+      -webkit-transform: translate3d(-3px, 0, 0);
+      transform: translate3d(-3px, 0, 0); }
+      10%, 100% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0); }
+      }
 
-@keyframes glitch-anim-flash {
-  0%, 5% {
-    opacity: 0.5;
-    -webkit-transform: translate3d(3px, 2px, 0);
-    transform: translate3d(3px, 2px, 0); }
-  5.5%, 10% {
-    opacity: 0.5;
-    -webkit-transform: translate3d(-3px, 0, 0);
-    transform: translate3d(-3px, 0, 0); }
-    10%, 100% {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0); }
-  }
-
-}
+      @keyframes glitch-anim-flash {
+        0%, 5% {
+          opacity: 0.5;
+          -webkit-transform: translate3d(3px, 2px, 0);
+          transform: translate3d(3px, 2px, 0); }
+          5.5%, 10% {
+            opacity: 0.5;
+            -webkit-transform: translate3d(-3px, 0, 0);
+            transform: translate3d(-3px, 0, 0); }
+            10%, 100% {
+              opacity: 0;
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0); }
+            }
