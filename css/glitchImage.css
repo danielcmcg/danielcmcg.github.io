@@ -12,7 +12,7 @@ body {
 .ag-glitch_item {
   background-color: transparent;
   background-blend-mode: normal;
-  background: url("../images/YonderTreeCat.png") no-repeat center;
+  background: url("../images/YonderTreeCatF5F3F5.png") no-repeat center;
 
   height: 40vh;
   background-size: contain;
@@ -46,12 +46,12 @@ body {
 @-webkit-keyframes glitch-anim-flash {
   0%, 5% {
     opacity: 0.5;
-    -webkit-transform: translate3d(3px, 2px, 0);
-    transform: translate3d(3px, 2px, 0); }
+    -webkit-transform: translate3d(5px, 3px, 0);
+    transform: translate3d(5px, 3px, 0); }
     5.5%, 10% {
       opacity: 0.5;
-      -webkit-transform: translate3d(-3px, 0, 0);
-      transform: translate3d(-3px, 0, 0); }
+      -webkit-transform: translate3d(-5px, 0, 0);
+      transform: translate3d(-5px, 0, 0); }
       10%, 100% {
         opacity: 0;
         -webkit-transform: translate3d(0, 0, 0);
@@ -61,12 +61,12 @@ body {
       @keyframes glitch-anim-flash {
         0%, 5% {
           opacity: 0.5;
-          -webkit-transform: translate3d(3px, 2px, 0);
-          transform: translate3d(3px, 2px, 0); }
+          -webkit-transform: translate3d(5px, 3px, 0);
+          transform: translate3d(5px, 3px, 0); }
           5.5%, 10% {
             opacity: 0.5;
-            -webkit-transform: translate3d(-3px, 0, 0);
-            transform: translate3d(-3px, 0, 0); }
+            -webkit-transform: translate3d(-5px, 0, 0);
+            transform: translate3d(-5px, 0, 0); }
             10%, 100% {
               opacity: 0;
               -webkit-transform: translate3d(0, 0, 0);

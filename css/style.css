@@ -1,7 +1,7 @@
 .main
 {
     font-family: 'Ubuntu', sans-serif;
-    color: #000;
+    color: #191919;
     /* background-color: #ccc; */
 }
 
@@ -30,10 +30,10 @@
   background-color: transparent;
 }
 
-a:link { color: #000000; text-decoration: none}
-a:visited { color: #000000; text-decoration: none}
-a:hover { color: #eee; text-decoration: none}
-a:active { color: #000000; text-decoration: none}
+a:link { color: #F5F3F5; text-decoration: none}
+a:visited { color: #F5F3F5; text-decoration: none}
+a:hover { color: #E0CA3C; text-decoration: none}
+a:active { color: #F5F3F5; text-decoration: none}
 
 .img-circle {
     border-radius: 50%;
@@ -58,10 +58,6 @@ html, body {
     display:block;
     height:90px; /* fixed header height*/
     margin:-90px 0 0; /* negative fixed header height */
-}
-
-.navbar{
-  background: #f0f0f0 !important;
 }
 
 canvas {
