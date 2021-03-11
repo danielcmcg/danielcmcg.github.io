@@ -100,6 +100,18 @@ html {
 
 }
 
+.btn-dark
+{
+  color: #191919 !important;
+  background-color: #E0CA3C !important;
+  border-color: #E0CA3C;
+}
+.btn-dark:hover
+{
+  color: #F5F3F5 !important;
+  background-color: #191919 !important;
+}
+
 /* Style the links inside the sidenav */
 #mySidenav a {
   color: #191919;
