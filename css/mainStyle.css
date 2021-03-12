@@ -22,14 +22,14 @@ html {
 .topContainer
 {
   color: #F5F3F5;
-  background-color: #191919;
-  padding-top: 0px;
+  background-color: #210B2C;
+  padding-top: 0vh;
   padding-bottom: 10vh;
   height: 100vh;
 }
 .logoContainer
 {
-  padding-top: 7vh;
+  padding-top: 0vh;
   padding-bottom: 10px;
 }
 .logoImage
@@ -44,6 +44,16 @@ html {
 .arrowDown
 {
   font-size: 3.5em;
+}
+
+.servicesContainer{
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.services h4
+{
+  color: #E0CA3C;
 }
 
 .section
