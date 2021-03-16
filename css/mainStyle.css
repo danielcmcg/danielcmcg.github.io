@@ -56,6 +56,12 @@ html {
   color: #E0CA3C;
 }
 
+.services, row
+{
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+}
+
 .section
 {
   margin-top: 40px;
