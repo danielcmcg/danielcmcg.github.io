@@ -26,6 +26,9 @@ html {
   padding-top: 0vh;
   padding-bottom: 10vh;
   height: 100vh;
+
+  /* background:#212531; */
+  background: linear-gradient(135deg, #E0CA3C 0%, #E0CA3C 9%, transparent 9%), linear-gradient(-45deg, #E0CA3C 0%, #E0CA3C 9%, #210B2C 9%)
 }
 .logoContainer
 {
@@ -55,7 +58,6 @@ html {
 {
   color: #E0CA3C;
 }
-
 .services, row
 {
   margin-left: 5% !important;
