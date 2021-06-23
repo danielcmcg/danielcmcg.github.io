@@ -9,40 +9,54 @@ html {
 
 .logoname
 {
-  color: #E0CA3C;
-  margin-top: -.3em;
-  font-size: 3.5em;
+  margin-top: 0vh;
+  font-size: 2.5em;
 }
 .logosubname
 {
+  color: #E0CA3C;
   margin-top: -.5em;
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 .topContainer
 {
   color: #F5F3F5;
-  background-color: #210B2C;
+  background-color: #191919;
   padding-top: 0vh;
-  padding-bottom: 10vh;
-  height: 100vh;
+  padding-bottom: 1vh;
+  height: 80vh;
 
   /* background:#212531; */
-  background: linear-gradient(135deg, #E0CA3C 0%, #E0CA3C 9%, transparent 9%), linear-gradient(-45deg, #E0CA3C 0%, #E0CA3C 9%, #210B2C 9%)
+  /* background: linear-gradient(135deg, #E0CA3C 0%, #E0CA3C 9%, transparent 9%), linear-gradient(-45deg, #E0CA3C 0%, #E0CA3C 9%, #210B2C 9%) */
 }
+@media screen and (min-width: 1400px) {
+  .topContainer
+  {
+    color: #F5F3F5;
+    background-color: #191919;
+    padding-top: 8vh;
+    padding-bottom: 1vh;
+    height: 80vh;
+
+    /* background:#212531; */
+    /* background: linear-gradient(135deg, #E0CA3C 0%, #E0CA3C 9%, transparent 9%), linear-gradient(-45deg, #E0CA3C 0%, #E0CA3C 9%, #210B2C 9%) */
+  }
+}
+
 .logoContainer
 {
   padding-top: 0vh;
-  padding-bottom: 10px;
+  padding-bottom: 1vh;
 }
 .logoImage
 {
-  height: 40vh;
+  height: 30vh;
 }
 .logoLinksContainer
 {
   padding-top: 1em;
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
 }
 .arrowDown
 {
@@ -50,10 +64,20 @@ html {
 }
 
 .servicesContainer{
-  width: 70vw;
+  font-size: 0.85em;
+  width: 100vw;
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (min-width: 1400px) {
+  .servicesContainer{
+    font-size: 1.05em;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .services h4
 {
   color: #E0CA3C;
@@ -66,7 +90,8 @@ html {
 
 .section
 {
-  margin-top: 40px;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
   width: 70vw;
   margin-left: auto;
   margin-right: auto;
@@ -74,7 +99,7 @@ html {
 
 .endSections
 {
-  padding-top: 20px;
+  padding-top: 2vh;
   color: #F5F3F5;
   background-color: #191919;
 }
@@ -86,9 +111,17 @@ html {
 
 .topNav
 {
-  width: 70vw;
+  width: 90vw;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 1400px) {
+  .topNav
+  {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .navbar
