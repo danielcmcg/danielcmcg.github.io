@@ -1,7 +1,6 @@
 .main {
   font-family: 'Ubuntu', sans-serif;
   color: #191919;
-  /* background-color: #ccc; */
 }
 
 #PostBody {
@@ -83,18 +82,8 @@ html, body {
   /* negative fixed header height */
 }
 
-canvas {
-  top: 0px;
-  left: 0px;
-  pointer-events: none;
-}
-
 .mouseArea {
-  top: 0px;
-  left: 0px;
   text-align: center;
-  height: 100%;
-  width: 100%;
 }
 
 .top {
