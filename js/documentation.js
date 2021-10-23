@@ -19,7 +19,7 @@ function FetchPostFromURL()
 function ReadPost(id)
 {
     var rawFile = new XMLHttpRequest();
-    var path = "blog/posts/"+id;
+    var path = "documentation/documents/"+id;
     rawFile.open("GET", path, true);
     rawFile.onload = function ()
     {
@@ -45,11 +45,11 @@ function ReadPostsTitles()
 {
   var converter = new showdown.Converter();
   document.getElementById("PostBody").innerHTML = converter.makeHtml(
-    "### Posts\n"
+    "### Documents\n"
   );
 
   var rawFile = new XMLHttpRequest();
-      var path = "blog/titles";
+      var path = "documentation/titles";
       rawFile.open("GET", path, true);
       rawFile.onload = function ()
       {
@@ -65,7 +65,7 @@ function ReadPostsTitles()
                 {
                   if(titles[i] != ""){
                   document.getElementById("PostBody").innerHTML += converter.makeHtml(
-                    "- [" + titles[i] + "](/blog.html?" + titles[i].replaceAll(" ", "_") + ")\n"
+                    "- [" + titles[i] + "](/documentation.html?" + titles[i].replaceAll(" ", "_") + ")\n"
                   );
                 }
               }

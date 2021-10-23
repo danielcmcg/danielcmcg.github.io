@@ -5,12 +5,23 @@
     /* background-color: #ccc; */
 }
 
-#PostBody a { color: #3366CC; text-decoration: none}
+#PostBody
+{
+  text-align: left;
+}
 
-#PostDate{
+#PostBody a
+{
+   color: #3366CC;
+   text-decoration: none;
+}
+
+#PostDate
+{
   margin-bottom: -20px;
   font-size: 15px;
   font-style: italic;
+  text-align: left;
 }
 
 .brandParent{
