@@ -2,75 +2,79 @@ html {
   scroll-behavior: smooth;
 }
 
-.topmenu
-{
+iframe {
+  width: 70%;
+  height: 95%;
+  border: 1px solid black;
+  background-color: white;
+  height: 70vh;
+  width: 70vw;
+}
+
+.topmenu {
   font-size: 1.5em;
 }
 
-.logoname
-{
+.logoname {
   margin-top: 0vh;
   font-size: 2.8em;
 }
-.logosubname
-{
+
+.logosubname {
   color: #E0CA3C;
   margin-top: -.5em;
   font-size: 1.8em;
 }
 
-.topContainer
-{
+.topContainer {
   color: #F5F3F5;
   background-color: #191919;
   padding-top: 0vh;
   padding-bottom: 1vh;
   height: 80vh;
-
   /* background:#212531; */
   /* background: linear-gradient(135deg, #E0CA3C 0%, #E0CA3C 9%, transparent 9%), linear-gradient(-45deg, #E0CA3C 0%, #E0CA3C 9%, #210B2C 9%) */
 }
+
 @media screen and (min-width: 1400px) {
-  .topContainer
-  {
+  .topContainer {
     color: #F5F3F5;
     background-color: #191919;
     padding-top: 8vh;
     padding-bottom: 1vh;
     height: 80vh;
-
     /* background:#212531; */
     /* background: linear-gradient(135deg, #E0CA3C 0%, #E0CA3C 9%, transparent 9%), linear-gradient(-45deg, #E0CA3C 0%, #E0CA3C 9%, #210B2C 9%) */
   }
 }
 
-.logoContainer
-{
+.logoContainer {
   padding-top: 0vh;
   padding-bottom: 1vh;
 }
-.logoImage
-{
+
+.logoImage {
   height: 30vh;
 }
-.logoLinksContainer
-{
+
+.logoLinksContainer {
   padding-top: 1em;
   padding-bottom: 5vh;
 }
-.arrowDown
-{
+
+.arrowDown {
   font-size: 3.5em;
 }
 
-.servicesContainer{
+.servicesContainer {
   font-size: 0.85em;
   width: 100vw;
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (min-width: 1400px) {
-  .servicesContainer{
+  .servicesContainer {
     font-size: 1.05em;
     width: 100vw;
     margin-left: auto;
@@ -78,18 +82,16 @@ html {
   }
 }
 
-.services h4
-{
+.services h4 {
   color: #E0CA3C;
 }
-.services, row
-{
+
+.services, row {
   margin-left: 5% !important;
   margin-right: 5% !important;
 }
 
-.section
-{
+.section {
   margin-top: 1vh;
   margin-bottom: 3vh;
   width: 70vw;
@@ -97,66 +99,62 @@ html {
   margin-right: auto;
 }
 
-.endSections
-{
+.endSections {
   padding-top: 2vh;
   color: #F5F3F5;
   background-color: #191919;
 }
 
-.topNavParent
-{
+.topNavParent {
   background-color: #222;
 }
 
-.topNav
-{
+.topNav {
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (min-width: 1400px) {
-  .topNav
-  {
+  .topNav {
     width: 70vw;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-.navbar
-{
+.navbar {
   background-color: #222;
 }
 
-.navbar-brand{
+.navbar-brand {
   color: #F5F3F5 !important;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
   color: #E0CA3C !important;
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #F5F3F5;
+  color: #F5F3F5;
 }
+
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: #E0CA3C;
+  color: #E0CA3C;
 }
 
 .noise {
-    background-color: #F5F3F5;
+  background-color: #F5F3F5;
 }
 
-.btn-dark
-{
+.btn-dark {
   color: #191919 !important;
   background-color: #E0CA3C !important;
   border-color: #E0CA3C;
 }
-.btn-dark:hover
-{
+
+.btn-dark:hover {
   color: #F5F3F5 !important;
   background-color: #191919 !important;
 }
@@ -164,15 +162,19 @@ html {
 /* Style the links inside the sidenav */
 #mySidenav a {
   color: #191919;
-  position: fixed; /* Position them relative to the browser window */
-  right: 0px; /* Position them outside of the screen */
-  padding-right: 5px; /* 15px padding */
-  font-size: 40px; /* Increase font size */
-  }
+  position: fixed;
+  /* Position them relative to the browser window */
+  right: 0px;
+  /* Position them outside of the screen */
+  padding-right: 5px;
+  /* 15px padding */
+  font-size: 40px;
+  /* Increase font size */
+}
 
-  #mySidenav a:hover{
-    color: #E0CA3C;
-  }
+#mySidenav a:hover {
+  color: #E0CA3C;
+}
 
 /* The about link: 20px from the top with a green background */
 #s0 {
@@ -182,17 +184,17 @@ html {
 #s1 {
   top: 30vh;
   padding-right: 15px !important;
-  }
+}
 
 #s2 {
   top: 45vh;
   padding-right: 15px !important;
-  }
+}
 
 #s3 {
   top: 60vh;
   padding-right: 15px !important;
-  }
+}
 
 #s4 {
   top: 75vh;
