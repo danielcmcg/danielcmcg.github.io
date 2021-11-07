@@ -2,50 +2,26 @@ html {
   scroll-behavior: smooth;
 }
 
-iframe {
-  width: 70%;
-  height: 95%;
-  border: 1px solid black;
-  background-color: white;
-  height: 70vh;
-  width: 70vw;
-}
-
 .topmenu {
   font-size: 1.5em;
 }
 
 .logoname {
-  margin-top: 0vh;
-  font-size: 2.8em;
+  color: #f3f3f3;
+  font-size: 2.2em;
 }
 
 .logosubname {
-  color: #E0CA3C;
-  margin-top: -.5em;
-  font-size: 1.8em;
+  padding-top: 1vh;
+  font-size: 1.5em;
 }
 
 .topContainer {
-  color: #F5F3F5;
-  background-color: #191919;
-  padding-top: 0vh;
-  padding-bottom: 1vh;
+  color: #f3f3f3;
+  background-color: #222;
+  padding-top: 30vh;
+  padding-bottom: 0vh;
   height: 80vh;
-  /* background:#212531; */
-  /* background: linear-gradient(135deg, #E0CA3C 0%, #E0CA3C 9%, transparent 9%), linear-gradient(-45deg, #E0CA3C 0%, #E0CA3C 9%, #210B2C 9%) */
-}
-
-@media screen and (min-width: 1400px) {
-  .topContainer {
-    color: #F5F3F5;
-    background-color: #191919;
-    padding-top: 8vh;
-    padding-bottom: 1vh;
-    height: 80vh;
-    /* background:#212531; */
-    /* background: linear-gradient(135deg, #E0CA3C 0%, #E0CA3C 9%, transparent 9%), linear-gradient(-45deg, #E0CA3C 0%, #E0CA3C 9%, #210B2C 9%) */
-  }
 }
 
 .logoContainer {
@@ -58,7 +34,7 @@ iframe {
 }
 
 .logoLinksContainer {
-  padding-top: 1em;
+  padding-top: 3vh;
   padding-bottom: 5vh;
 }
 
@@ -67,42 +43,32 @@ iframe {
 }
 
 .servicesContainer {
-  font-size: 0.85em;
-  width: 100vw;
+  font-size: 1.1em;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media screen and (min-width: 1400px) {
-  .servicesContainer {
-    font-size: 1.05em;
-    width: 100vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  color: #ff9a00;
 }
 
 .services h4 {
-  color: #E0CA3C;
-}
-
-.services, row {
-  margin-left: 5% !important;
-  margin-right: 5% !important;
+  color: #ff9a00;
 }
 
 .section {
-  margin-top: 20px;
+  padding-top: 20vh;
   padding-bottom: 30px;
   width: 70vw;
   margin-left: auto;
   margin-right: auto;
 }
 
+#contact{
+  padding-bottom: 5vh;
+}
+
 .endSections {
   padding-top: 2vh;
-  color: #F5F3F5;
-  background-color: #191919;
+  color: #f3f3f3;
+  background-color: #222;
 }
 
 .topNavParent {
@@ -128,35 +94,42 @@ iframe {
 }
 
 .navbar-brand {
-  color: #F5F3F5 !important;
+  color: #f3f3f3 !important;
 }
 
 .navbar-brand:hover {
-  color: #E0CA3C !important;
+  color: #ff9a00 !important;
 }
 
 .navbar-nav .nav-item .nav-link {
-  color: #F5F3F5;
+  color: #f3f3f3;
 }
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-  color: #E0CA3C;
+  color: #ff9a00;
 }
 
-.noise {
-  background-color: #F5F3F5;
+.main {
+  background-color: #222;
+  font-family: 'Ubuntu', sans-serif;
+  color: #f3f3f3;
+}
+
+.card-title {
+  color: #ff9a00 !important;
 }
 
 .btn-dark {
-  color: #191919 !important;
-  background-color: #E0CA3C !important;
-  border-color: #E0CA3C;
+  color: #222 !important;
+  background-color: #ff9a00 !important;
+  border-color: #ff9a00;
 }
 
 .btn-dark:hover {
-  color: #F5F3F5 !important;
-  background-color: #191919 !important;
+  color: #f3f3f3 !important;
+  background-color: #222 !important;
+  border-color: #ff9a00;
 }
 
 /* Style the links inside the sidenav */
@@ -166,37 +139,12 @@ iframe {
   /* Position them relative to the browser window */
   right: 0px;
   /* Position them outside of the screen */
-  padding-right: 5px;
+  padding-right: 0px;
   /* 15px padding */
   font-size: 40px;
   /* Increase font size */
 }
 
 #mySidenav a:hover {
-  color: #E0CA3C;
-}
-
-/* The about link: 20px from the top with a green background */
-#s0 {
-  top: 15vh;
-}
-
-#s1 {
-  top: 30vh;
-  padding-right: 15px !important;
-}
-
-#s2 {
-  top: 45vh;
-  padding-right: 15px !important;
-}
-
-#s3 {
-  top: 60vh;
-  padding-right: 15px !important;
-}
-
-#s4 {
-  top: 75vh;
-  padding-right: 15px !important;
+  color: #ff9a00;
 }

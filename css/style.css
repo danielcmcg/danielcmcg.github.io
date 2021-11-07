@@ -1,7 +1,3 @@
-.main {
-  font-family: 'Ubuntu', sans-serif;
-  color: #191919;
-}
 
 #PostBody {
   text-align: left;
@@ -13,7 +9,7 @@
 }
 
 #PostDate {
-  margin-bottom: -20px;
+  padding-bottom: -20px;
   font-size: 15px;
   font-style: italic;
   text-align: left;
@@ -46,7 +42,7 @@ a:visited {
 }
 
 a:hover {
-  color: #E0CA3C;
+  color: #ff9a00;
   text-decoration: none
 }
 
@@ -73,15 +69,6 @@ html, body {
   background-color: transparent !important;
 }
 
-:target:before {
-  content: "";
-  display: block;
-  height: 90px;
-  /* fixed header height*/
-  margin: -90px 0 0;
-  /* negative fixed header height */
-}
-
 .mouseArea {
   text-align: center;
 }
@@ -104,27 +91,4 @@ html, body {
   bottom: 0;
   width: 100%;
   text-align: center;
-}
-
-.videocontainer {
-  position: relative;
-  overflow: hidden;
-  background-color: white;
-}
-
-.videocontainer video {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  /*  object-fit is not supported on IE  */
-  object-fit: cover;
-  opacity: 0.8;
-}
-
-.videocontainer .container {
-  z-index: 2;
-  position: relative;
 }
