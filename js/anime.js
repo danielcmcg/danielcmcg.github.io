@@ -39,11 +39,11 @@ icons[5].addEventListener('mouseleave', function(){ animateButton(icons[5], 1);}
 icons[6].addEventListener('mouseenter', function(){ animateButton(icons[6], hoverEnd);}, false);
 icons[6].addEventListener('mouseleave', function(){ animateButton(icons[6], 1);}, false);
 
-//icons[7].addEventListener('mouseenter', function(){ animateButton(icons[7], hoverEnd);}, false);
-//icons[7].addEventListener('mouseleave', function(){ animateButton(icons[7], 1);}, false);
+icons[7].addEventListener('mouseenter', function(){ animateButton(icons[7], hoverEnd);}, false);
+icons[7].addEventListener('mouseleave', function(){ animateButton(icons[7], 1);}, false);
 
-//icons[8].addEventListener('mouseenter', function(){ animateButton(icons[8], hoverEnd);}, false);
-//icons[8].addEventListener('mouseleave', function(){ animateButton(icons[8], 1);}, false);
+icons[8].addEventListener('mouseenter', function(){ animateButton(icons[8], hoverEnd);}, false);
+icons[8].addEventListener('mouseleave', function(){ animateButton(icons[8], 1);}, false);
 
 var brandParent = document.querySelectorAll('.brandParent');
 var brandImages = document.querySelectorAll('.brandAnim');
