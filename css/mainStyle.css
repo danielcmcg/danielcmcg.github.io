@@ -7,8 +7,9 @@ html {
 }
 
 .logoname {
+  margin-top: -3vh;
   color: #f3f3f3;
-  font-size: 2.2em;
+  font-size: 3.5em;
 }
 
 .logosubname {
@@ -18,8 +19,8 @@ html {
 
 .topContainer {
   color: #f3f3f3;
-  background-color: #222;
-  padding-top: 30vh;
+  background-color: #333;
+  padding-top: 15vh;
   padding-bottom: 0vh;
   height: 80vh;
 }
@@ -30,7 +31,7 @@ html {
 }
 
 .logoImage {
-  height: 30vh;
+  height: 50vh;
 }
 
 .logoLinksContainer {
@@ -68,11 +69,11 @@ html {
 .endSections {
   padding-top: 2vh;
   color: #f3f3f3;
-  background-color: #222;
+  background-color: #333;
 }
 
 .topNavParent {
-  background-color: #222;
+  background-color: #333;
 }
 
 .topNav {
@@ -90,7 +91,7 @@ html {
 }
 
 .navbar {
-  background-color: #222;
+  background-color: #333;
 }
 
 .navbar-brand {
@@ -111,7 +112,7 @@ html {
 }
 
 .main {
-  background-color: #222;
+  background-color: #333;
   font-family: 'Ubuntu', sans-serif;
   color: #f3f3f3;
 }
@@ -128,7 +129,7 @@ html {
 
 .btn-dark:hover {
   color: #f3f3f3 !important;
-  background-color: #222 !important;
+  background-color: #333 !important;
   border-color: #ff9a00;
 }
 
