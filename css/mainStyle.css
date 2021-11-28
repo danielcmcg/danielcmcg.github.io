@@ -19,7 +19,7 @@ html {
 
 .topContainer {
   color: #f3f3f3;
-  background-color: #333;
+  background-color: #17191A;
   padding-top: 15vh;
   padding-bottom: 0vh;
   height: 80vh;
@@ -69,11 +69,11 @@ html {
 .endSections {
   padding-top: 2vh;
   color: #f3f3f3;
-  background-color: #333;
+  background-color: #17191A;
 }
 
 .topNavParent {
-  background-color: #333;
+  background-color: #17191A;
 }
 
 .topNav {
@@ -91,7 +91,7 @@ html {
 }
 
 .navbar {
-  background-color: #333;
+  background-color: #17191A;
 }
 
 .navbar-brand {
@@ -112,7 +112,7 @@ html {
 }
 
 .main {
-  background-color: #333;
+  background-color: #17191A;
   font-family: 'Ubuntu', sans-serif;
   color: #f3f3f3;
 }
@@ -129,7 +129,7 @@ html {
 
 .btn-dark:hover {
   color: #f3f3f3 !important;
-  background-color: #333 !important;
+  background-color: #17191A !important;
   border-color: #ff9a00;
 }
 
