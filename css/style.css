@@ -69,10 +69,6 @@ html, body {
   background-color: transparent !important;
 }
 
-.mouseArea {
-  text-align: center;
-}
-
 .top {
   position: absolute;
   left: 0;
@@ -92,7 +88,6 @@ html, body {
   width: 100%;
   text-align: center;
 }
-
 
 /* timeline */
 .timeline{

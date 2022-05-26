@@ -9,12 +9,12 @@ html {
 .logoname {
   margin-top: -3vh;
   color: #f3f3f3;
-  font-size: 3.5em;
+  font-size: calc(1vw + 4vh);
 }
 
 .logosubname {
   margin-top: -1vh;
-  font-size: 1.5em;
+  font-size: calc(0.5vw + 2vh);
 }
 
 .topContainer {
@@ -57,7 +57,7 @@ html {
 .section {
   padding-top: 20vh;
   padding-bottom: 30px;
-  width: 70vw;
+  width: 100vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -66,11 +66,11 @@ html {
   padding-bottom: 5vh;
 }
 
-.endSections {
+/* .endSections {
   padding-top: 2vh;
   color: #f3f3f3;
   background-color: #17191A;
-}
+} */
 
 .topNavParent {
   background-color: #17191A;
@@ -112,6 +112,7 @@ html {
 }
 
 .main {
+  text-align: center;
   background-color: #17191A;
   font-family: 'Ubuntu', sans-serif;
   color: #f3f3f3;
