@@ -13,14 +13,14 @@ html {
 }
 
 .logosubname {
-  padding-top: 1vh;
+  margin-top: -1vh;
   font-size: 1.5em;
 }
 
 .topContainer {
   color: #f3f3f3;
   background-color: #17191A;
-  padding-top: 15vh;
+  padding-top: 17vh;
   padding-bottom: 0vh;
   height: 80vh;
 }
