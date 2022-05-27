@@ -48,20 +48,8 @@ icons[8].addEventListener('mouseleave', function(){ animateButton(icons[8], 1);}
 var brandParent = document.querySelectorAll('.brandParent');
 var brandImages = document.querySelectorAll('.brandAnim');
 
-//animateBrand(brandImages, 0, true);
 animateBrand(brandImages[0], 360, true);
 animateBrand(brandImages[1], -180, true);
-
-//brandParent[0].addEventListener('mouseenter', function()
-//{
-//  animateBrand(brandImages[0], 360, true);
-//  animateBrand(brandImages[1], -180, true);
-//}, false);
-//brandParent[0].addEventListener('mouseleave', function()
-//{
-//  animateBrand(brandImages[0], 0, false);
-//  animateBrand(brandImages[1], 1, false);
-//}, false);
 
 function animateBrand(target, value, loop){
   anime.remove(target);
