@@ -62,15 +62,16 @@ html {
   margin-right: auto;
 }
 
+.section h1, h2
+{
+  color: #ff9a00;
+  font-weight: bold;
+}
+
 #contact {
   padding-bottom: 5vh;
 }
 
-/* .endSections {
-  padding-top: 2vh;
-  color: #f3f3f3;
-  background-color: #17191A;
-} */
 .topNavParent {
   background-color: #17191A;
 }
