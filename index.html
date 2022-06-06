@@ -206,17 +206,13 @@
   </div>
 
 
+
   <div class="section container" id="about">
     <h1>About</h1>
-    <p>
-      Our path summs up more than 10 years of experience in Unity and 6 years in the Asset Store.<br>
-    </p>
-    <p>
-      The first asset was published in 2016, followed by a great learning. In 2019 we increased the focus on Unity development adding new assets and kept delivering updates. In 2021 we rebranded and begun MeadowGames!<br>
-      </p>
-    <p>
-      The goal for the next years is to keep creating with responsibility on improving our assets.
-    </p>
+<p><h5>
+Our path summs up more than 10 years of experience in Unity and 6 years in the Asset Store.<br>
+      While delivering constant updates, our goal is to keep creating with responsibility on improving our assets.
+    </h5></p>
   </div>
 
 
@@ -244,9 +240,40 @@
     });
   </script>
 
+  <script type="text/javascript">
+  var slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+window.onload= function () {
+ setInterval(function(){
+     plusSlides(1);
+ }, 20000);
+ }
+  </script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>

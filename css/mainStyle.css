@@ -62,7 +62,13 @@ html {
   margin-right: auto;
 }
 
-.section h1, h2
+/* .section h1, h2
+{
+  color: #ff9a00;
+  font-weight: bold;
+} */
+
+.container h1, h2
 {
   color: #ff9a00;
   font-weight: bold;
