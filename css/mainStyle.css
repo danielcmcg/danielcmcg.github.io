@@ -18,16 +18,14 @@ html {
 }
 
 .topContainer {
+  padding-top: 20vh;
+  height: 100vh;
   color: #f3f3f3;
   background-color: #17191A;
-  padding-top: 17vh;
-  padding-bottom: 0vh;
-  height: 80vh;
-}
-
-.logoContainer {
-  padding-top: 0vh;
-  padding-bottom: 1vh;
+  background-image: url('/images/meadow.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+   background-attachment: fixed;
+   background-position: bottom;
 }
 
 .logoImage {
@@ -36,7 +34,6 @@ html {
 
 .logoLinksContainer {
   padding-top: 3vh;
-  padding-bottom: 5vh;
 }
 
 .arrowDown {
@@ -55,18 +52,12 @@ html {
 }
 
 .section {
-  padding-top: 20vh;
-  padding-bottom: 30px;
-  width: 100vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
-
-/* .section h1, h2
-{
-  color: #ff9a00;
-  font-weight: bold;
-} */
 
 .container h1, h2
 {
@@ -140,17 +131,12 @@ html {
   border-color: #ff9a00;
 }
 
-/* Style the links inside the sidenav */
 #mySidenav a {
   color: #191919;
   position: fixed;
-  /* Position them relative to the browser window */
   right: 0px;
-  /* Position them outside of the screen */
   padding-right: 0px;
-  /* 15px padding */
   font-size: 40px;
-  /* Increase font size */
 }
 
 #mySidenav a:hover {
