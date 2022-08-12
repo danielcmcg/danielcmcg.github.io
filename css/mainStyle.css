@@ -19,13 +19,14 @@ html {
 
 .topContainer {
   padding-top: 20vh;
-  height: 100vh;
+  height: 93vh;
   color: #f3f3f3;
   background-color: #17191A;
   background-image: url('/images/meadow.jpg');
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
    background-attachment: fixed;
-   background-position: bottom;
+   background-position: center;
+   background-size: cover;
 }
 
 .logoImage {
