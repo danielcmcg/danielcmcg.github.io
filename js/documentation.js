@@ -22,7 +22,6 @@ function ReadPost(id) {
         var allText = rawFile.responseText;
         var converter = new showdown.Converter();
         const lastModifiedDate = new Date(rawFile.getResponseHeader('Last-Modified'));
-        document.getElementById("PostDate").innerHTML = lastModifiedDate.toDateString();
         document.getElementById("PostBody").innerHTML = converter.makeHtml(allText);
       } else {
         document.getElementById("PostBody").innerHTML = "Post not found.";
