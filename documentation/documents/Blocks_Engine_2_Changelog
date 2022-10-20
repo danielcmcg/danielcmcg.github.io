@@ -22,6 +22,7 @@ v2.9
 - UpdateTargetObject method added to the InstructionBase interface
 - ForceRebuildLayout method added to the BE2_UI_BlocksSelectionViewer to be called after resizing this panel-
 - new blocks: List, AddToList, ClearList, InsertAtList, RemoveIndexFromList, RemoveValueFromList, ReplaceIndexOfList, IndexOfValueAtList, ListContains, ListLength, ValueAtIndexAtList
+- audios changed from ogg to wav due to Asset Store's requirements
 - bugfix: TargetObject of blocks being null
 - bugfix: changing the Canvas Render Mode needed recompiling to work correctly 
 - bugfix: dropdown text being cropped on the Blocks Selection Panel
