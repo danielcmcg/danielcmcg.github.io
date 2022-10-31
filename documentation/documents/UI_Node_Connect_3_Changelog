@@ -32,11 +32,6 @@ v3.0
 - added drag selection
 - added support to the New Input System
 
-v2.1
-- Working inside ScrollViews and movable panels
-- fix: Corrected lines position when LineRenderer is offset
-- new scene added: ScrollView Graphs
-
 v2.2
 - UIC_ContextMenu made not static to enable multiple charts
 - duplicated block is now instantiated with the same parent of the reference block
@@ -44,6 +39,11 @@ v2.2
 - DisableClick property of Nodes can now be set
 - linewidth now varies with the rectTransform scale, following the screen scale
 - bugfix: fixed dropdown values not being updated before OnEnable
+
+v2.1
+- Working inside ScrollViews and movable panels
+- fix: Corrected lines position when LineRenderer is offset
+- new scene added: ScrollView Graphs
 
 v2.0
 - UIC components refactored to enable multiple UIC views in the same scene
