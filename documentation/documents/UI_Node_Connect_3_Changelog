@@ -1,6 +1,20 @@
 ### UI Node Connect 3 Changelog
 
 ---
+v3.2
+- connections can be created in editor mode from the scene view by accessing the UIC3_Manager's inspector
+- AddLine and RemoveLine methods removed and DrawConnections method added to the UIC3_Manager, connections are now drawn from the ConnectionsList[n].line using the event E_OnPopulateMesh
+- UIC3_Manager.CreateConnection made obsolete
+- Nodes Alignment extension added with align vertical/horizontal, center even vertical/horizontal, space even vertical/horizontal
+- UIC3_Connection constructor adjusted to facilitate initialization of connections from the inspector
+- UIC3_ConnectionPoint.haveSpots changed to HasSpots to fix misspell
+- connectionsList removed from UIC3_ConnectionPoint, replaced by the Connections property
+- added GetOppositeConnectionPoints method to the UIC3_ConnectionPoint
+- added SetControlPointPosition and SetControlPointDistanceAngle methods to manipulate the control point position and direction from script
+- OnPopulateMesh event added to the line renderer to handle drawing of connection lines, add or remove listener are done with OnPopulateMeshAddListener and OnPopulateMeshRemoveListener methods
+- DrawLine of UIC3_LineRenderer made public
+- bugfix: nodelist null on start
+
 v3.1.1
 - bugfix: fixed unselecting objects when clicked context menu items
 
