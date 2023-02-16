@@ -1,6 +1,9 @@
 ### Blocks Engine 2 Changelog
 
 ---
+v2.10.1
+- bugfix: error when centering zoom without blocks in the ProgrammingEnv
+
 v2.10
 - Legacy Text, Dropdown and InputField components in scene and prefabs were replaced by their TextMeshPro corresponding ones
     (It is still possible to use legacy components and keep custom blocks without changin to TMP)
