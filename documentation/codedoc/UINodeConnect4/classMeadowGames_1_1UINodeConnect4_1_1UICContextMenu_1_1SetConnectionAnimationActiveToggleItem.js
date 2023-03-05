@@ -1,0 +1,4 @@
+var classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetConnectionAnimationActiveToggleItem =
+[
+    [ "OnChangeSelection", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetConnectionAnimationActiveToggleItem.html#a70600cb2f9d03b4fc1aea46d5544d4d3", null ]
+];
