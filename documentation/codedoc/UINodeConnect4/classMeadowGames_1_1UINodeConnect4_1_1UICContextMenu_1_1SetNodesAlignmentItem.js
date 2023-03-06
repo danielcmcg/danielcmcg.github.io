@@ -1,5 +1,6 @@
 var classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetNodesAlignmentItem =
 [
+    [ "Awake", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetNodesAlignmentItem.html#a671156bfa7ba76aaf5d7b07861b5c976", null ],
     [ "OnChangeSelection", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetNodesAlignmentItem.html#a498a8520e1048997529ec08f786357b3", null ],
     [ "alignHorizontal", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetNodesAlignmentItem.html#ad64877d6a16ee922fe6f967f5b6174aa", null ],
     [ "alignVertical", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetNodesAlignmentItem.html#a313d6c21738cbe800a6463172d4f0b45", null ],

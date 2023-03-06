@@ -4,7 +4,7 @@ var namespaceMeadowGames_1_1UINodeConnect4_1_1UICContextMenu =
     [ "ContextItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1ContextItem.html", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1ContextItem" ],
     [ "ContextMenuManager", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1ContextMenuManager.html", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1ContextMenuManager" ],
     [ "DefaultConnectionWidthInputItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1DefaultConnectionWidthInputItem.html", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1DefaultConnectionWidthInputItem" ],
-    [ "DefaultCurveStyleDropdownItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1DefaultCurveStyleDropdownItem.html", null ],
+    [ "DefaultCurveStyleDropdownItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1DefaultCurveStyleDropdownItem.html", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1DefaultCurveStyleDropdownItem" ],
     [ "DuplicateNodeButtonItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1DuplicateNodeButtonItem.html", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1DuplicateNodeButtonItem" ],
     [ "EmptyContextItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1EmptyContextItem.html", null ],
     [ "IContextItem", "interfaceMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1IContextItem.html", "interfaceMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1IContextItem" ],
