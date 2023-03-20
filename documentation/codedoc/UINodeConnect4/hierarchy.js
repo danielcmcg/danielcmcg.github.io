@@ -29,7 +29,6 @@ var hierarchy =
         [ "MeadowGames.UINodeConnect4.UICContextMenu.SetConnectionAnimationActiveToggleItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetConnectionAnimationActiveToggleItem.html", null ],
         [ "MeadowGames.UINodeConnect4.UICContextMenu.SetConnectionAnimationPointsSliderItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetConnectionAnimationPointsSliderItem.html", null ],
         [ "MeadowGames.UINodeConnect4.UICContextMenu.SetConnectionWidthInputItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetConnectionWidthInputItem.html", null ],
-        [ "MeadowGames.UINodeConnect4.UICContextMenu.SetConnectionWidthSliderItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetConnectionWidthSliderItem.html", null ],
         [ "MeadowGames.UINodeConnect4.UICContextMenu.SetCurveStyleDropdownItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetCurveStyleDropdownItem.html", null ],
         [ "MeadowGames.UINodeConnect4.UICContextMenu.SetElementsColorItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetElementsColorItem.html", null ],
         [ "MeadowGames.UINodeConnect4.UICContextMenu.SetNodesAlignmentItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1SetNodesAlignmentItem.html", null ]
@@ -52,6 +51,12 @@ var hierarchy =
       [ "MeadowGames.UINodeConnect4.Connection", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html", null ],
       [ "MeadowGames.UINodeConnect4.Node", "classMeadowGames_1_1UINodeConnect4_1_1Node.html", null ],
       [ "MeadowGames.UINodeConnect4.Port", "classMeadowGames_1_1UINodeConnect4_1_1Port.html", null ]
+    ] ],
+    [ "IPointerEnterHandler", null, [
+      [ "MeadowGames.UINodeConnect4.SampleScene.ScrollViewGraph.Zoom", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1ScrollViewGraph_1_1Zoom.html", null ]
+    ] ],
+    [ "IPointerExitHandler", null, [
+      [ "MeadowGames.UINodeConnect4.SampleScene.ScrollViewGraph.Zoom", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1ScrollViewGraph_1_1Zoom.html", null ]
     ] ],
     [ "MeadowGames.UINodeConnect4.ISelectable", "interfaceMeadowGames_1_1UINodeConnect4_1_1ISelectable.html", [
       [ "MeadowGames.UINodeConnect4.Connection", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html", null ],
@@ -86,6 +91,20 @@ var hierarchy =
       ] ],
       [ "MeadowGames.UINodeConnect4.Node", "classMeadowGames_1_1UINodeConnect4_1_1Node.html", null ],
       [ "MeadowGames.UINodeConnect4.PortControlPoint", "classMeadowGames_1_1UINodeConnect4_1_1PortControlPoint.html", null ],
+      [ "MeadowGames.UINodeConnect4.SampleScene.ConnectTheFoodChain.GameManager", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1ConnectTheFoodChain_1_1GameManager.html", null ],
+      [ "MeadowGames.UINodeConnect4.SampleScene.LogicGates.GameManager", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1LogicGates_1_1GameManager.html", null ],
+      [ "MeadowGames.UINodeConnect4.SampleScene.LogicGates.Gate", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1LogicGates_1_1Gate.html", [
+        [ "MeadowGames.UINodeConnect4.SampleScene.LogicGates.ANDGate", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1LogicGates_1_1ANDGate.html", null ],
+        [ "MeadowGames.UINodeConnect4.SampleScene.LogicGates.EndGate", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1LogicGates_1_1EndGate.html", null ],
+        [ "MeadowGames.UINodeConnect4.SampleScene.LogicGates.NOTGate", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1LogicGates_1_1NOTGate.html", null ],
+        [ "MeadowGames.UINodeConnect4.SampleScene.LogicGates.ORGate", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1LogicGates_1_1ORGate.html", null ],
+        [ "MeadowGames.UINodeConnect4.SampleScene.LogicGates.PointGate", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1LogicGates_1_1PointGate.html", null ],
+        [ "MeadowGames.UINodeConnect4.SampleScene.LogicGates.ValueGate", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1LogicGates_1_1ValueGate.html", null ],
+        [ "MeadowGames.UINodeConnect4.SampleScene.LogicGates.XORGate", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1LogicGates_1_1XORGate.html", null ]
+      ] ],
+      [ "MeadowGames.UINodeConnect4.SampleScene.MultipleCharts.GameManager", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1MultipleCharts_1_1GameManager.html", null ],
+      [ "MeadowGames.UINodeConnect4.SampleScene.MultipleCharts.MultipleChartsManager", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1MultipleCharts_1_1MultipleChartsManager.html", null ],
+      [ "MeadowGames.UINodeConnect4.SampleScene.ScrollViewGraph.Zoom", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1ScrollViewGraph_1_1Zoom.html", null ],
       [ "MeadowGames.UINodeConnect4.UICContextMenu.ContextItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1ContextItem.html", null ],
       [ "MeadowGames.UINodeConnect4.UICContextMenu.ContextMenuManager", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1ContextMenuManager.html", null ],
       [ "MeadowGames.UINodeConnect4.UICSystemManager", "classMeadowGames_1_1UINodeConnect4_1_1UICSystemManager.html", null ]
@@ -93,6 +112,9 @@ var hierarchy =
     [ "MeadowGames.UINodeConnect4.Extension.NodesAlignment", "classMeadowGames_1_1UINodeConnect4_1_1Extension_1_1NodesAlignment.html", null ],
     [ "MeadowGames.UINodeConnect4.Pointer", "classMeadowGames_1_1UINodeConnect4_1_1Pointer.html", null ],
     [ "MeadowGames.UINodeConnect4.Raycaster", "classMeadowGames_1_1UINodeConnect4_1_1Raycaster.html", null ],
+    [ "ScrollRect", null, [
+      [ "MeadowGames.UINodeConnect4.SampleScene.ScrollViewGraph.CustomScrollRect", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1ScrollViewGraph_1_1CustomScrollRect.html", null ]
+    ] ],
     [ "MeadowGames.UINodeConnect4.GraphicRenderer.Shape", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Shape.html", [
       [ "MeadowGames.UINodeConnect4.GraphicRenderer.Circle", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Circle.html", null ],
       [ "MeadowGames.UINodeConnect4.GraphicRenderer.Diamond", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Diamond.html", null ],

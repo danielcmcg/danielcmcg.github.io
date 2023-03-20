@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['node_117',['Node',['../classMeadowGames_1_1UINodeConnect4_1_1Node.html',1,'MeadowGames::UINodeConnect4']]],
-  ['nodesalignment_118',['NodesAlignment',['../classMeadowGames_1_1UINodeConnect4_1_1Extension_1_1NodesAlignment.html',1,'MeadowGames::UINodeConnect4::Extension']]]
+  ['multiplechartsmanager_138',['MultipleChartsManager',['../classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1MultipleCharts_1_1MultipleChartsManager.html',1,'MeadowGames::UINodeConnect4::SampleScene::MultipleCharts']]]
 ];

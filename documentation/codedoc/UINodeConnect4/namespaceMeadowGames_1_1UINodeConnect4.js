@@ -4,6 +4,7 @@ var namespaceMeadowGames_1_1UINodeConnect4 =
     [ "Extension", "namespaceMeadowGames_1_1UINodeConnect4_1_1Extension.html", "namespaceMeadowGames_1_1UINodeConnect4_1_1Extension" ],
     [ "Extra", "namespaceMeadowGames_1_1UINodeConnect4_1_1Extra.html", "namespaceMeadowGames_1_1UINodeConnect4_1_1Extra" ],
     [ "GraphicRenderer", "namespaceMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer.html", "namespaceMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer" ],
+    [ "SampleScene", "namespaceMeadowGames_1_1UINodeConnect4_1_1SampleScene.html", "namespaceMeadowGames_1_1UINodeConnect4_1_1SampleScene" ],
     [ "UICContextMenu", "namespaceMeadowGames_1_1UINodeConnect4_1_1UICContextMenu.html", "namespaceMeadowGames_1_1UINodeConnect4_1_1UICContextMenu" ],
     [ "Connection", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html", "classMeadowGames_1_1UINodeConnect4_1_1Connection" ],
     [ "ConnectionLabel", "classMeadowGames_1_1UINodeConnect4_1_1ConnectionLabel.html", "classMeadowGames_1_1UINodeConnect4_1_1ConnectionLabel" ],

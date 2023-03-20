@@ -1,0 +1,5 @@
+var namespaceMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1MultipleCharts =
+[
+    [ "GameManager", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1MultipleCharts_1_1GameManager.html", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1MultipleCharts_1_1GameManager" ],
+    [ "MultipleChartsManager", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1MultipleCharts_1_1MultipleChartsManager.html", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1MultipleCharts_1_1MultipleChartsManager" ]
+];
