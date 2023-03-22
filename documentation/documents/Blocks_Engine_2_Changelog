@@ -1,6 +1,30 @@
 ### Blocks Engine 2 Changelog
 
 ---
+v2.11
+- references to drag drop manager and execution manager refactored in drag scripts
+- removed unecessary ChildBlocks list from Drag interface
+- events OnStackStart and OnStackEnd added to the BlocksStack to allow more control
+- PopulateStackRecursive refactored to improved way to run the block stack. The tigger block function is executed as the other block types, making the conditional triggers blocks more efficient without delay when executed continuously
+- removed the need to force BlocksStack to be added to the execution array using the MarkToAdd variable
+- OnEnableInstruction and OnDisableInstruction virtual methods added to the instruction Base. Available to be used as needed but it is mainly used on trigger instructions with conditions that should be checked on Update
+- WhenJoystickKeyPressed, WhenKeyPressed, WhenPlayClicked refactored to be compatible with the new way the trigger blocks are executed
+- added method BE2_BlocksSerializer.BlocksCodeToXML to make it possible to save or send the code XML string without the need for generating a .BE2 file
+- BE2_BlocksSerializer.SaveCode refactored to use the BlocksCodeToXML method
+- added method BE2_BlocksSerializer.XMLToBlocksCode to make it possible to load code from a XML string without the need for a .BE2 file
+- BE2_BlocksSerializer.LoadCode refactored to use the XMLToBlocksCode method
+- dropdown arrow from the selection blocks made non raycast target to improve performance
+- disable RectMask2D from the selection blocks to improve performance
+- TMP text from the selection blocks made scaleStatic and non raycast target to improve performance
+- added CallOnEndOfFrame(this MonoBehaviour, System.Action) method to the Utils class
+- added DropTo method to the BE2_DragBlock and BE2_DragOperation classes
+- bugfix: trigger blocks loaded from the save menu didn't execut correctly if no PrimaryKey click was done before
+
+v2.10.2
+- bugfix: BE2_ExecutionManager.Instance being null before it is called inside OnDisable when scene is closed
+- bugfix: WebGL saves data not persisting after page reload
+- bugfix: blocks that start inside the programming env with an operation block as input get no input spot back after dragging operation block out
+
 v2.10.1
 - bugfix: error when centering zoom without blocks in the ProgrammingEnv
 
