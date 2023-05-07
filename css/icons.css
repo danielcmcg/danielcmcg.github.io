@@ -2,12 +2,14 @@
 .icon20{width: 20px !important;height: 20px !important; vertical-align: middle; filter: invert(100%) sepia(21%) saturate(1905%) hue-rotate(199deg) brightness(105%) contrast(89%);}
 .icon30{width: 30px !important;height: 30px !important; vertical-align: middle; filter: invert(100%) sepia(21%) saturate(1905%) hue-rotate(199deg) brightness(105%) contrast(89%);}
 .icon40{width: 40px !important;height: 40px !important; vertical-align: middle; filter: invert(100%) sepia(21%) saturate(1905%) hue-rotate(199deg) brightness(105%) contrast(89%);}
+
 .icon50{width: 50px !important;height: 50px !important; vertical-align: middle;}
 .icon60{width: 60px !important;height: 60px !important; vertical-align: middle;}
 .icon70{width: 70px !important;height: 70px !important; vertical-align: middle;}
 .icon80{width: 80px !important;height: 80px !important; vertical-align: middle;}
 .icon90{width: 90px !important;height: 90px !important; vertical-align: middle;}
 .icon100{width: 100px !important;height: 100px !important; vertical-align: middle;}
+
 .octicon-unity{content:url(../svg/unity.svg)}
 .octicon-mail{content:url(../svg/mail.svg)}
 .octicon-mark-github{content:url(../svg/mark-github.svg)}
@@ -15,3 +17,4 @@
 .external-link{content:url(../svg/icons8-external-link.svg)}
 .discord{content:url(../svg/Discord.svg)}
 .twitter{content:url(../svg/twitter.svg)}
+.youtube{content:url(../svg/youtube.svg)}

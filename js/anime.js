@@ -45,6 +45,12 @@ icons[7].addEventListener('mouseleave', function(){ animateButton(icons[7], 1);}
 icons[8].addEventListener('mouseenter', function(){ animateButton(icons[8], hoverEnd);}, false);
 icons[8].addEventListener('mouseleave', function(){ animateButton(icons[8], 1);}, false);
 
+icons[9].addEventListener('mouseenter', function(){ animateButton(icons[9], hoverEnd);}, false);
+icons[9].addEventListener('mouseleave', function(){ animateButton(icons[9], 1);}, false);
+
+icons[10].addEventListener('mouseenter', function(){ animateButton(icons[10], hoverEnd);}, false);
+icons[10].addEventListener('mouseleave', function(){ animateButton(icons[10], 1);}, false);
+
 var brandParent = document.querySelectorAll('.brandParent');
 var brandImages = document.querySelectorAll('.brandAnim');
 
