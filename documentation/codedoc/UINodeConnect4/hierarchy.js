@@ -1,17 +1,18 @@
 var hierarchy =
 [
+    [ "MeadowGames.UINodeConnect4.UICSerialization.ConnectionSerializer", "classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1ConnectionSerializer.html", null ],
     [ "MeadowGames.UINodeConnect4.DragSelection", "classMeadowGames_1_1UINodeConnect4_1_1DragSelection.html", null ],
+    [ "MeadowGames.UINodeConnect4.DragSelectionUtility", "classMeadowGames_1_1UINodeConnect4_1_1DragSelectionUtility.html", null ],
     [ "Editor", null, [
       [ "MeadowGames.UINodeConnect4.EditorScript.Editor_GraphManager", "classMeadowGames_1_1UINodeConnect4_1_1EditorScript_1_1Editor__GraphManager.html", null ],
       [ "MeadowGames.UINodeConnect4.EditorScript.Editor_Node", "classMeadowGames_1_1UINodeConnect4_1_1EditorScript_1_1Editor__Node.html", null ],
       [ "MeadowGames.UINodeConnect4.EditorScript.Editor_Port", "classMeadowGames_1_1UINodeConnect4_1_1EditorScript_1_1Editor__Port.html", null ],
-      [ "MeadowGames.UINodeConnect4.Extension.Editor_ConnectionLabelRule", "classMeadowGames_1_1UINodeConnect4_1_1Extension_1_1Editor__ConnectionLabelRule.html", null ]
+      [ "MeadowGames.UINodeConnect4.Extension.Editor_ConnectionLabelRule", "classMeadowGames_1_1UINodeConnect4_1_1Extension_1_1Editor__ConnectionLabelRule.html", null ],
+      [ "MeadowGames.UINodeConnect4.SampleScene.SerializationSample.SerializationManagerSampleEditor", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1SerializationSample_1_1SerializationManagerSampleEditor.html", null ]
     ] ],
+    [ "MeadowGames.UINodeConnect4.EditorScript.Editor_Utils", "classMeadowGames_1_1UINodeConnect4_1_1EditorScript_1_1Editor__Utils.html", null ],
     [ "MeadowGames.UINodeConnect4.EventManager< T >", "classMeadowGames_1_1UINodeConnect4_1_1EventManager.html", null ],
-    [ "MeadowGames.UINodeConnect4.EventManager< MeadowGames.UINodeConnect4.IElement >", "classMeadowGames_1_1UINodeConnect4_1_1EventManager.html", null ],
-    [ "Graphic", null, [
-      [ "MeadowGames.UINodeConnect4.Port", "classMeadowGames_1_1UINodeConnect4_1_1Port.html", null ]
-    ] ],
+    [ "MeadowGames.UINodeConnect4.UICSerialization.GraphSerializer", "classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1GraphSerializer.html", null ],
     [ "MeadowGames.UINodeConnect4.IClickable", "interfaceMeadowGames_1_1UINodeConnect4_1_1IClickable.html", [
       [ "MeadowGames.UINodeConnect4.Connection", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html", null ],
       [ "MeadowGames.UINodeConnect4.Node", "classMeadowGames_1_1UINodeConnect4_1_1Node.html", null ],
@@ -74,7 +75,8 @@ var hierarchy =
     [ "MaskableGraphic", null, [
       [ "MeadowGames.UINodeConnect4.GraphicRenderer.UICLineRenderer", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1UICLineRenderer.html", [
         [ "MeadowGames.UINodeConnect4.Extra.HandlerRenderer", "classMeadowGames_1_1UINodeConnect4_1_1Extra_1_1HandlerRenderer.html", null ]
-      ] ]
+      ] ],
+      [ "MeadowGames.UINodeConnect4.Port", "classMeadowGames_1_1UINodeConnect4_1_1Port.html", null ]
     ] ],
     [ "MonoBehaviour", null, [
       [ "MeadowGames.UINodeConnect4.ConnectionLabel", "classMeadowGames_1_1UINodeConnect4_1_1ConnectionLabel.html", null ],
@@ -83,6 +85,9 @@ var hierarchy =
         [ "MeadowGames.UINodeConnect4.Extension.FixedLabelRule", "classMeadowGames_1_1UINodeConnect4_1_1Extension_1_1FixedLabelRule.html", null ],
         [ "MeadowGames.UINodeConnect4.Extension.StartNodeIDRule", "classMeadowGames_1_1UINodeConnect4_1_1Extension_1_1StartNodeIDRule.html", null ],
         [ "MeadowGames.UINodeConnect4.Extension.StartPlusEndNodeIDsRule", "classMeadowGames_1_1UINodeConnect4_1_1Extension_1_1StartPlusEndNodeIDsRule.html", null ]
+      ] ],
+      [ "MeadowGames.UINodeConnect4.Extension.PortMatchRule", "classMeadowGames_1_1UINodeConnect4_1_1Extension_1_1PortMatchRule.html", [
+        [ "MeadowGames.UINodeConnect4.SampleScene.SerializationSample.CustomPortMatchRule", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1SerializationSample_1_1CustomPortMatchRule.html", null ]
       ] ],
       [ "MeadowGames.UINodeConnect4.Extra.ConstantUpdateLines", "classMeadowGames_1_1UINodeConnect4_1_1Extra_1_1ConstantUpdateLines.html", null ],
       [ "MeadowGames.UINodeConnect4.GraphManager", "classMeadowGames_1_1UINodeConnect4_1_1GraphManager.html", null ],
@@ -105,22 +110,38 @@ var hierarchy =
       [ "MeadowGames.UINodeConnect4.SampleScene.MultipleCharts.GameManager", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1MultipleCharts_1_1GameManager.html", null ],
       [ "MeadowGames.UINodeConnect4.SampleScene.MultipleCharts.MultipleChartsManager", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1MultipleCharts_1_1MultipleChartsManager.html", null ],
       [ "MeadowGames.UINodeConnect4.SampleScene.ScrollViewGraph.Zoom", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1ScrollViewGraph_1_1Zoom.html", null ],
+      [ "MeadowGames.UINodeConnect4.SampleScene.SerializationSample.ConnectionColorManager", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1SerializationSample_1_1ConnectionColorManager.html", null ],
+      [ "MeadowGames.UINodeConnect4.SampleScene.SerializationSample.SerializationManagerSample", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1SerializationSample_1_1SerializationManagerSample.html", null ],
       [ "MeadowGames.UINodeConnect4.UICContextMenu.ContextItem", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1ContextItem.html", null ],
       [ "MeadowGames.UINodeConnect4.UICContextMenu.ContextMenuManager", "classMeadowGames_1_1UINodeConnect4_1_1UICContextMenu_1_1ContextMenuManager.html", null ],
+      [ "MeadowGames.UINodeConnect4.UICSerialization.DeserializationTemplates", "classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1DeserializationTemplates.html", null ],
       [ "MeadowGames.UINodeConnect4.UICSystemManager", "classMeadowGames_1_1UINodeConnect4_1_1UICSystemManager.html", null ]
     ] ],
     [ "MeadowGames.UINodeConnect4.Extension.NodesAlignment", "classMeadowGames_1_1UINodeConnect4_1_1Extension_1_1NodesAlignment.html", null ],
+    [ "MeadowGames.UINodeConnect4.UICSerialization.NodeSerializer", "classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1NodeSerializer.html", null ],
     [ "MeadowGames.UINodeConnect4.Pointer", "classMeadowGames_1_1UINodeConnect4_1_1Pointer.html", null ],
+    [ "MeadowGames.UINodeConnect4.UICSerialization.PortSerializer", "classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1PortSerializer.html", null ],
     [ "MeadowGames.UINodeConnect4.Raycaster", "classMeadowGames_1_1UINodeConnect4_1_1Raycaster.html", null ],
     [ "ScrollRect", null, [
       [ "MeadowGames.UINodeConnect4.SampleScene.ScrollViewGraph.CustomScrollRect", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1ScrollViewGraph_1_1CustomScrollRect.html", null ]
     ] ],
+    [ "MeadowGames.UINodeConnect4.UICSerialization.SerializableConnection", "classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1SerializableConnection.html", null ],
+    [ "MeadowGames.UINodeConnect4.UICSerialization.SerializableGraph", "classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1SerializableGraph.html", null ],
+    [ "MeadowGames.UINodeConnect4.UICSerialization.SerializableNode", "classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1SerializableNode.html", null ],
+    [ "MeadowGames.UINodeConnect4.UICSerialization.SerializablePort", "classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1SerializablePort.html", null ],
+    [ "MeadowGames.UINodeConnect4.UICSerialization.SerializableRectTransform", "classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1SerializableRectTransform.html", null ],
+    [ "MeadowGames.UINodeConnect4.UICSerialization.SerializationEvents", "classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1SerializationEvents.html", null ],
     [ "MeadowGames.UINodeConnect4.GraphicRenderer.Shape", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Shape.html", [
       [ "MeadowGames.UINodeConnect4.GraphicRenderer.Circle", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Circle.html", null ],
       [ "MeadowGames.UINodeConnect4.GraphicRenderer.Diamond", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Diamond.html", null ],
       [ "MeadowGames.UINodeConnect4.GraphicRenderer.Square", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Square.html", null ],
       [ "MeadowGames.UINodeConnect4.GraphicRenderer.Triangle", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Triangle.html", null ]
     ] ],
+    [ "MeadowGames.UINodeConnect4.UICSerialization.DeserializationTemplates.Templates< T >.TemplateItem", "structMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1DeserializationTemplates_1_1Templates_1_1TemplateItem.html", null ],
+    [ "MeadowGames.UINodeConnect4.UICSerialization.DeserializationTemplates.Templates< T >", "structMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1DeserializationTemplates_1_1Templates.html", null ],
+    [ "MeadowGames.UINodeConnect4.UICSerialization.DeserializationTemplates.Templates< MeadowGames.UINodeConnect4.Node >", "structMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1DeserializationTemplates_1_1Templates.html", null ],
+    [ "MeadowGames.UINodeConnect4.UICSerialization.DeserializationTemplates.Templates< MeadowGames.UINodeConnect4.Port >", "structMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1DeserializationTemplates_1_1Templates.html", null ],
+    [ "MeadowGames.UINodeConnect4.UICUtility", "classMeadowGames_1_1UINodeConnect4_1_1UICUtility.html", null ],
     [ "UnityEvent", null, [
       [ "MeadowGames.UINodeConnect4.UICEvent< T >", "classMeadowGames_1_1UINodeConnect4_1_1UICEvent.html", null ]
     ] ]

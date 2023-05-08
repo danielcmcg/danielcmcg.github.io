@@ -7,6 +7,7 @@ var classMeadowGames_1_1UINodeConnect4_1_1Port =
     ] ],
     [ "Awake", "classMeadowGames_1_1UINodeConnect4_1_1Port.html#a74ba69a170d4f6856fcbd7a1fbd18881", null ],
     [ "ConnectTo", "classMeadowGames_1_1UINodeConnect4_1_1Port.html#ac39d984fbac447f36f8637248fec475e", null ],
+    [ "ConnectTo", "classMeadowGames_1_1UINodeConnect4_1_1Port.html#aeb9108de73331a709daa46d87c6bcb30", null ],
     [ "GetConnectedNodes", "classMeadowGames_1_1UINodeConnect4_1_1Port.html#a5b3ffad67224f870371e0cffc52d8533", null ],
     [ "GetConnectedPorts", "classMeadowGames_1_1UINodeConnect4_1_1Port.html#aff9a224ed94d5284492717b6e012e410", null ],
     [ "GetControlPointAngle", "classMeadowGames_1_1UINodeConnect4_1_1Port.html#a295fc33f2e1a1abab8a16d91a12e4b5b", null ],
@@ -54,5 +55,6 @@ var classMeadowGames_1_1UINodeConnect4_1_1Port =
     [ "EnableHover", "classMeadowGames_1_1UINodeConnect4_1_1Port.html#ad3937c7c44c97373f4d9180c30c533c1", null ],
     [ "HasSpots", "classMeadowGames_1_1UINodeConnect4_1_1Port.html#af31ccaa0ab82b3f48ba40d6a94c541ad", null ],
     [ "ID", "classMeadowGames_1_1UINodeConnect4_1_1Port.html#a4d8c69472caed090c77266cefd9d49e1", null ],
-    [ "Polarity", "classMeadowGames_1_1UINodeConnect4_1_1Port.html#a71c43e9808c2024b83ca90743407efe1", null ]
+    [ "Polarity", "classMeadowGames_1_1UINodeConnect4_1_1Port.html#a71c43e9808c2024b83ca90743407efe1", null ],
+    [ "SID", "classMeadowGames_1_1UINodeConnect4_1_1Port.html#a9d00928b2b53c94338c1a92fd4ab1eec", null ]
 ];

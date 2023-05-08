@@ -25,5 +25,6 @@ var classMeadowGames_1_1UINodeConnect4_1_1Node =
     [ "EnableHover", "classMeadowGames_1_1UINodeConnect4_1_1Node.html#a5220a3a7445a4a57fe6f107ba3cf3cca", null ],
     [ "EnableSelect", "classMeadowGames_1_1UINodeConnect4_1_1Node.html#abad57f6d64154d6d18d60691a5900587", null ],
     [ "ID", "classMeadowGames_1_1UINodeConnect4_1_1Node.html#a06d539488e09a8469cb0b0322bde2ae0", null ],
-    [ "Image", "classMeadowGames_1_1UINodeConnect4_1_1Node.html#a41b7fee28ca6207dc9c19912779228d4", null ]
+    [ "Image", "classMeadowGames_1_1UINodeConnect4_1_1Node.html#a41b7fee28ca6207dc9c19912779228d4", null ],
+    [ "SID", "classMeadowGames_1_1UINodeConnect4_1_1Node.html#ada5e1d458328846cb2a303db83b92106", null ]
 ];

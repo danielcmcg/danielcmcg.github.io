@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="MeadowGames_Logo_Zoom_70.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">UI Node Connect 4
-   &#160;<span id="projectnumber">v4.0.2</span>
+   &#160;<span id="projectnumber">v4.1</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -98,7 +98,39 @@ $(document).ready(function(){initNavTree('changelog.html',''); initResizable(); 
 <div class="title">Changelog </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>v4.0.2</p><ul>
+<div class="textblock"><p>v4.1</p><ul>
+<li>DuplicateNodeButtonItem now duplicates connections if they are connected to selected nodes</li>
+<li>removed unecessary GraphManager parameter from Raycaster.RaycastUIAll method</li>
+<li>now the Connection's ElementColor (current color) is set independetly from the defaultColor (color the elements comes back when unselect or hover exit)</li>
+<li>pointer selection priority of Node and Connection switched to improve usability (Nodes are now selected before Connections)</li>
+<li>Connection constructor made public to facilitate serialization</li>
+<li>adde Connection.NewConnection overload method that can receive a template connection as parameter so the style is copied</li>
+<li>adde Port.ConnectTo overload method that can receive a template connection as parameter so the style is copied</li>
+<li>added "updatePortsIcons" optional parameter to Connection.UpdateLine</li>
+<li>Connection.CopyVariables method made obsolete. Use Clone() instead</li>
+<li>Port inheritance changed from Graphc to MaskableGraphic</li>
+<li>UICLineRenderer.AddUIVertexQuad refactored to improved performance</li>
+<li>added method UICLineRenderer.AddUIVertexTriangle to improved performance</li>
+<li>RaycastPortOfOppositPolarity updated to use PortMatchRule if exists in scene</li>
+<li>PortMatchRule extension added to facilitate the implementation of custom rules for connect ports by dragging</li>
+<li>Serialization system added<ul>
+<li>Serializable Types: SerializableNode, SerializablePort, SerializableConnection and SerializableGraph</li>
+<li>Serializer helper classes: NodeSerializer, PortSerializer, ConnectionSerializer and GraphSerializer</li>
+<li>DeserializationTemplates component to instantiate nodes and ports based on its ID</li>
+<li>SerializationEvents: OnGraphSerialize, OnGraphDeserialize, OnNodeSerialize, OnNodeDeserialize, OnPortSerialize, OnPortDeserialize, OnConnectionSerialize and OnConnectionDeserialize</li>
+</ul>
+</li>
+<li>added GenerateSID method to utils to generate unique ID for serialization</li>
+<li>added TryGetValue method to utils to get values from Dictionary</li>
+<li>added string SID property to IGraphElement to facilitate serialization</li>
+<li>new scene added: Serialization Sample</li>
+<li>bugfix: - connection line position not updating when added using UICSystemManager.AddConnectionToList</li>
+<li>bugfix: icons not being updated when the connection was created from script</li>
+<li>bugfix: label from the original connections being transfered to the cloned connection</li>
+<li>bugfix: label flipped down when connected ports are horizontally aligned</li>
+<li>bugfix: ElementColor of Port not changing image color</li>
+</ul>
+<p>v4.0.2</p><ul>
 <li>bugfix: line.animation.pointsDistance was changed OnSelection if it was outside of the min and max slider range</li>
 <li>added missing namespace to the CustomScrollRect class</li>
 <li>project guids regenerated to avoid conflict with version 3</li>

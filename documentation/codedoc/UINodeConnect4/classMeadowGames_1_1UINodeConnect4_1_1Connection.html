@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="MeadowGames_Logo_Zoom_70.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">UI Node Connect 4
-   &#160;<span id="projectnumber">v4.0.2</span>
+   &#160;<span id="projectnumber">v4.1</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -134,9 +134,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Select</b> ()</td></t
 <tr class="memitem:a9ba26912762036d2dc2b63032c29d53c"><td class="memItemLeft" align="right" valign="top"><a id="a9ba26912762036d2dc2b63032c29d53c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Unselect</b> ()</td></tr>
 <tr class="separator:a9ba26912762036d2dc2b63032c29d53c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1de3af2499575275af53f1abec748059"><td class="memItemLeft" align="right" valign="top"><a id="a1de3af2499575275af53f1abec748059"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateLine</b> ()</td></tr>
-<tr class="separator:a1de3af2499575275af53f1abec748059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a029142aa044881e4dc8eadf80bd0c743"><td class="memItemLeft" align="right" valign="top"><a id="a029142aa044881e4dc8eadf80bd0c743"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateLine</b> (bool updatePortsIcons=true)</td></tr>
+<tr class="separator:a029142aa044881e4dc8eadf80bd0c743"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac073d65df4bd0ab273c55e1378d7de58"><td class="memItemLeft" align="right" valign="top"><a id="ac073d65df4bd0ab273c55e1378d7de58"></a>
 List&lt; <a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Connection.html">Connection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetCrossedConnections</b> ()</td></tr>
 <tr class="separator:ac073d65df4bd0ab273c55e1378d7de58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,6 +167,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6aa74638f646781a6383c49234b805cb"><td class="memItemLeft" align="right" valign="top"><a id="a6aa74638f646781a6383c49234b805cb"></a>
 static <a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Connection.html">Connection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>NewConnection</b> (<a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Port.html">Port</a> port0, <a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Port.html">Port</a> port1)</td></tr>
 <tr class="separator:a6aa74638f646781a6383c49234b805cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac47c1e20e816f8ddf0c06da9c6b2bb86"><td class="memItemLeft" align="right" valign="top"><a id="ac47c1e20e816f8ddf0c06da9c6b2bb86"></a>
+static <a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Connection.html">Connection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>NewConnection</b> (<a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Port.html">Port</a> port0, <a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Port.html">Port</a> port1, <a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Connection.html">Connection</a> connectionTemplate)</td></tr>
+<tr class="separator:ac47c1e20e816f8ddf0c06da9c6b2bb86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a414ec1b94bbbded1d6b9608235e7fe11"><td class="memItemLeft" align="right" valign="top"><a id="a414ec1b94bbbded1d6b9608235e7fe11"></a>
 static <a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Connection.html">Connection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetConnection</b> (<a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Port.html">Port</a> port0, <a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Port.html">Port</a> port1)</td></tr>
 <tr class="separator:a414ec1b94bbbded1d6b9608235e7fe11"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,7 +204,7 @@ CurveStyle&#160;</td><td class="memItemRight" valign="bottom"><b>curveStyle</b> 
 <a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Line.html">Line</a>&#160;</td><td class="memItemRight" valign="bottom"><b>line</b></td></tr>
 <tr class="separator:a3e9eaed279c91005886e4ee3c3af1485"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dc69966a2072dcdb129dcd01836a406"><td class="memItemLeft" align="right" valign="top"><a id="a3dc69966a2072dcdb129dcd01836a406"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>Priority</b> =&gt; 1</td></tr>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>Priority</b> =&gt; 0</td></tr>
 <tr class="separator:a3dc69966a2072dcdb129dcd01836a406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
@@ -209,6 +212,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a9f86107d85d686b9dbe89ab9466e7ea1"><td class="memItemLeft" align="right" valign="top"><a id="a9f86107d85d686b9dbe89ab9466e7ea1"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>ID</b><code> [get, set]</code></td></tr>
 <tr class="separator:a9f86107d85d686b9dbe89ab9466e7ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3eeec35e503a70cd4d22ca1b4479e3e"><td class="memItemLeft" align="right" valign="top"><a id="ae3eeec35e503a70cd4d22ca1b4479e3e"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>SID</b><code> [get, set]</code></td></tr>
+<tr class="separator:ae3eeec35e503a70cd4d22ca1b4479e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe3d99f6caedb6a0fbd933835a42a589"><td class="memItemLeft" align="right" valign="top"><a id="abe3d99f6caedb6a0fbd933835a42a589"></a>
 Color&#160;</td><td class="memItemRight" valign="bottom"><b>ElementColor</b><code> [get, set]</code></td></tr>
 <tr class="separator:abe3d99f6caedb6a0fbd933835a42a589"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,6 +234,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>DisableClick</b><code
 <tr class="memitem:ad63cf5544062aa098b3477f7f38fb0c5 inherit properties_interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement"><td class="memItemLeft" align="right" valign="top"><a id="ad63cf5544062aa098b3477f7f38fb0c5"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>ID</b><code> [get, set]</code></td></tr>
 <tr class="separator:ad63cf5544062aa098b3477f7f38fb0c5 inherit properties_interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74c977b0489c4311d22f541e12a01e81 inherit properties_interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement"><td class="memItemLeft" align="right" valign="top"><a id="a74c977b0489c4311d22f541e12a01e81"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>SID</b><code> [get, set]</code></td></tr>
+<tr class="separator:a74c977b0489c4311d22f541e12a01e81 inherit properties_interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff2bb23c2c28147c08bd4ad6227ae70d inherit properties_interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement"><td class="memItemLeft" align="right" valign="top"><a id="aff2bb23c2c28147c08bd4ad6227ae70d"></a>
 Color&#160;</td><td class="memItemRight" valign="bottom"><b>ElementColor</b><code> [get, set]</code></td></tr>
 <tr class="separator:aff2bb23c2c28147c08bd4ad6227ae70d inherit properties_interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="MeadowGames_Logo_Zoom_70.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">UI Node Connect 4
-   &#160;<span id="projectnumber">v4.0.2</span>
+   &#160;<span id="projectnumber">v4.1</span>
    </div>
   </td>
    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('classMeadowGames_1_1UINodeConnect4_1_1
 </div><!--header-->
 <div class="contents">
 
-<p>Inherits Graphic, <a class="el" href="interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement.html">MeadowGames.UINodeConnect4.IGraphElement</a>, <a class="el" href="interfaceMeadowGames_1_1UINodeConnect4_1_1IDraggable.html">MeadowGames.UINodeConnect4.IDraggable</a>, <a class="el" href="interfaceMeadowGames_1_1UINodeConnect4_1_1IClickable.html">MeadowGames.UINodeConnect4.IClickable</a>, and <a class="el" href="interfaceMeadowGames_1_1UINodeConnect4_1_1IHover.html">MeadowGames.UINodeConnect4.IHover</a>.</p>
+<p>Inherits MaskableGraphic, <a class="el" href="interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement.html">MeadowGames.UINodeConnect4.IGraphElement</a>, <a class="el" href="interfaceMeadowGames_1_1UINodeConnect4_1_1IDraggable.html">MeadowGames.UINodeConnect4.IDraggable</a>, <a class="el" href="interfaceMeadowGames_1_1UINodeConnect4_1_1IClickable.html">MeadowGames.UINodeConnect4.IClickable</a>, and <a class="el" href="interfaceMeadowGames_1_1UINodeConnect4_1_1IHover.html">MeadowGames.UINodeConnect4.IHover</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -130,6 +130,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateIcon</b> ()</td
 <tr class="memitem:ac39d984fbac447f36f8637248fec475e"><td class="memItemLeft" align="right" valign="top"><a id="ac39d984fbac447f36f8637248fec475e"></a>
 <a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Connection.html">Connection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ConnectTo</b> (<a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Port.html">Port</a> otherPort)</td></tr>
 <tr class="separator:ac39d984fbac447f36f8637248fec475e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb9108de73331a709daa46d87c6bcb30"><td class="memItemLeft" align="right" valign="top"><a id="aeb9108de73331a709daa46d87c6bcb30"></a>
+<a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Connection.html">Connection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ConnectTo</b> (<a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Port.html">Port</a> otherPort, <a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Connection.html">Connection</a> connectionTemplate)</td></tr>
+<tr class="separator:aeb9108de73331a709daa46d87c6bcb30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb06e25fafc01f94118837f8d8e22005"><td class="memItemLeft" align="right" valign="top"><a id="acb06e25fafc01f94118837f8d8e22005"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Remove</b> ()</td></tr>
 <tr class="separator:acb06e25fafc01f94118837f8d8e22005"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -253,12 +256,12 @@ Properties</h2></td></tr>
 <tr class="memitem:a4d8c69472caed090c77266cefd9d49e1"><td class="memItemLeft" align="right" valign="top"><a id="a4d8c69472caed090c77266cefd9d49e1"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>ID</b><code> [get, set]</code></td></tr>
 <tr class="separator:a4d8c69472caed090c77266cefd9d49e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d00928b2b53c94338c1a92fd4ab1eec"><td class="memItemLeft" align="right" valign="top"><a id="a9d00928b2b53c94338c1a92fd4ab1eec"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>SID</b><code> [get, set]</code></td></tr>
+<tr class="separator:a9d00928b2b53c94338c1a92fd4ab1eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71c43e9808c2024b83ca90743407efe1"><td class="memItemLeft" align="right" valign="top"><a id="a71c43e9808c2024b83ca90743407efe1"></a>
 PolarityType&#160;</td><td class="memItemRight" valign="bottom"><b>Polarity</b><code> [get, set]</code></td></tr>
 <tr class="separator:a71c43e9808c2024b83ca90743407efe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af31ccaa0ab82b3f48ba40d6a94c541ad"><td class="memItemLeft" align="right" valign="top"><a id="af31ccaa0ab82b3f48ba40d6a94c541ad"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasSpots</b><code> [get]</code></td></tr>
-<tr class="separator:af31ccaa0ab82b3f48ba40d6a94c541ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c7792cf9718795d69e65c5d0a0451b3"><td class="memItemLeft" align="right" valign="top"><a id="a6c7792cf9718795d69e65c5d0a0451b3"></a>
 Color&#160;</td><td class="memItemRight" valign="bottom"><b>ElementColor</b><code> [get, set]</code></td></tr>
 <tr class="separator:a6c7792cf9718795d69e65c5d0a0451b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -271,6 +274,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>EnableHover</b><code>
 <tr class="memitem:a8fac56a96b34bde5270fd93c59199526"><td class="memItemLeft" align="right" valign="top"><a id="a8fac56a96b34bde5270fd93c59199526"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>DisableClick</b><code> [get, set]</code></td></tr>
 <tr class="separator:a8fac56a96b34bde5270fd93c59199526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af31ccaa0ab82b3f48ba40d6a94c541ad"><td class="memItemLeft" align="right" valign="top"><a id="af31ccaa0ab82b3f48ba40d6a94c541ad"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasSpots</b><code> [get]</code></td></tr>
+<tr class="separator:af31ccaa0ab82b3f48ba40d6a94c541ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f78ca5a6b31cc4f73aa5ebf5cb7a853"><td class="memItemLeft" align="right" valign="top"><a id="a4f78ca5a6b31cc4f73aa5ebf5cb7a853"></a>
 List&lt; <a class="el" href="classMeadowGames_1_1UINodeConnect4_1_1Connection.html">Connection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Connections</b><code> [get]</code></td></tr>
 <tr class="separator:a4f78ca5a6b31cc4f73aa5ebf5cb7a853"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -281,6 +287,9 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>ConnectionsCount</b><c
 <tr class="memitem:ad63cf5544062aa098b3477f7f38fb0c5 inherit properties_interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement"><td class="memItemLeft" align="right" valign="top"><a id="ad63cf5544062aa098b3477f7f38fb0c5"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><b>ID</b><code> [get, set]</code></td></tr>
 <tr class="separator:ad63cf5544062aa098b3477f7f38fb0c5 inherit properties_interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74c977b0489c4311d22f541e12a01e81 inherit properties_interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement"><td class="memItemLeft" align="right" valign="top"><a id="a74c977b0489c4311d22f541e12a01e81"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>SID</b><code> [get, set]</code></td></tr>
+<tr class="separator:a74c977b0489c4311d22f541e12a01e81 inherit properties_interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff2bb23c2c28147c08bd4ad6227ae70d inherit properties_interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement"><td class="memItemLeft" align="right" valign="top"><a id="aff2bb23c2c28147c08bd4ad6227ae70d"></a>
 Color&#160;</td><td class="memItemRight" valign="bottom"><b>ElementColor</b><code> [get, set]</code></td></tr>
 <tr class="separator:aff2bb23c2c28147c08bd4ad6227ae70d inherit properties_interfaceMeadowGames_1_1UINodeConnect4_1_1IGraphElement"><td class="memSeparator" colspan="2">&#160;</td></tr>

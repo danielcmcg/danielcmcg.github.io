@@ -5,5 +5,7 @@ var classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Shape =
       [ "Circle", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Shape.html#afef80dbe563470a63aa8046499319524a30954d90085f6eaaf5817917fc5fecb3", null ],
       [ "Triangle", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Shape.html#afef80dbe563470a63aa8046499319524a5e5500cb2b82eb72d550de644bd1b64b", null ],
       [ "Diamond", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Shape.html#afef80dbe563470a63aa8046499319524a8f7671185d590914ac21c7511767b699", null ]
-    ] ]
+    ] ],
+    [ "Draw", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Shape.html#a5e100be8ff653b66e92e82ee3867a648", null ],
+    [ "DrawShape", "classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Shape.html#a4d39e239ebd752a328c1cab1e12cc0ac", null ]
 ];

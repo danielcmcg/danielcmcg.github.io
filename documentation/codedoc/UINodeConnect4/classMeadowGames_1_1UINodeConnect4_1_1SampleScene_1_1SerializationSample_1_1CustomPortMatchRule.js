@@ -1,0 +1,4 @@
+var classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1SerializationSample_1_1CustomPortMatchRule =
+[
+    [ "ExecuteRule", "classMeadowGames_1_1UINodeConnect4_1_1SampleScene_1_1SerializationSample_1_1CustomPortMatchRule.html#a066aebbf386fb2d76a4ef13b9ac6a195", null ]
+];

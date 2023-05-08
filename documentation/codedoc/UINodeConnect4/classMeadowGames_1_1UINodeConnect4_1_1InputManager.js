@@ -8,6 +8,7 @@ var classMeadowGames_1_1UINodeConnect4_1_1InputManager =
     [ "e_OnPointerDown", "classMeadowGames_1_1UINodeConnect4_1_1InputManager.html#afa368cbae3f8e37e4063982abfd424eb", null ],
     [ "e_OnPointerHover", "classMeadowGames_1_1UINodeConnect4_1_1InputManager.html#a70bfa4036fa6aee0adcb9a214afbe501", null ],
     [ "e_OnPointerUp", "classMeadowGames_1_1UINodeConnect4_1_1InputManager.html#ac787cc86a7a0d190a65799362db8af64", null ],
+    [ "Instance", "classMeadowGames_1_1UINodeConnect4_1_1InputManager.html#af8eade172c926cd22cbbf90d7c23e287", null ],
     [ "PointerPress", "classMeadowGames_1_1UINodeConnect4_1_1InputManager.html#aeb635228606d99f758a8c7296b713aa8", null ],
     [ "ScreenPointerPosition", "classMeadowGames_1_1UINodeConnect4_1_1InputManager.html#ac405dc05b8a56ba927e510406a4e3d22", null ]
 ];

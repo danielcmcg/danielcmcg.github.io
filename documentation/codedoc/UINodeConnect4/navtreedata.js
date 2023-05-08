@@ -42,7 +42,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classMeadowGames_1_1UINodeConnect4_1_1Port.html"
+"classMeadowGames_1_1UINodeConnect4_1_1Node.html#a06d539488e09a8469cb0b0322bde2ae0",
+"classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1GraphSerializer.html#a860a4d723df113a875e51364b4df3879"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -6,9 +6,13 @@ var classMeadowGames_1_1UINodeConnect4_1_1Connection =
       [ "Soft_Z_Shape", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a4521745e5cbcae6ef7f4ac60745d0c1ea321e15388d58318856786932c26d8656", null ],
       [ "Line", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a4521745e5cbcae6ef7f4ac60745d0c1ea4803e6b9e63dabf04de980788d6a13c4", null ]
     ] ],
+    [ "Connection", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a1c5108fe9ac5d577279353eccb92a07d", null ],
     [ "Clone", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a85ea7dc48b15a25fa279e352547d2352", null ],
     [ "CopyVariables", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#aca81418823c4c8fe5abfc2d55f49e308", null ],
+    [ "GetConnection", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a414ec1b94bbbded1d6b9608235e7fe11", null ],
     [ "GetCrossedConnections", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#ac073d65df4bd0ab273c55e1378d7de58", null ],
+    [ "NewConnection", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a6aa74638f646781a6383c49234b805cb", null ],
+    [ "NewConnection", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#ac47c1e20e816f8ddf0c06da9c6b2bb86", null ],
     [ "OnDrag", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#aaaf7945605e03b8568412f7855158b1f", null ],
     [ "OnPointerDown", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a8d8fd26858f71b842f473f6be299e4d1", null ],
     [ "OnPointerHoverEnter", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a1245b96b878e6f6b7bd58690990e08eb", null ],
@@ -19,7 +23,7 @@ var classMeadowGames_1_1UINodeConnect4_1_1Connection =
     [ "Select", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#ac9781f77018cc011011f395b6a951a19", null ],
     [ "SetLabel", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#ade138ea503313b897706a400452967f3", null ],
     [ "Unselect", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a9ba26912762036d2dc2b63032c29d53c", null ],
-    [ "UpdateLine", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a1de3af2499575275af53f1abec748059", null ],
+    [ "UpdateLine", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a029142aa044881e4dc8eadf80bd0c743", null ],
     [ "curveStyle", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a289a7fac4c646adb0d145a0c07d6b057", null ],
     [ "defaultColor", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a76c42328ef61ddd800a51b03b6727fd8", null ],
     [ "graphManager", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#af7dd8ca06b5ffc2493f548d2da5132e4", null ],
@@ -35,5 +39,6 @@ var classMeadowGames_1_1UINodeConnect4_1_1Connection =
     [ "EnableDrag", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a2e4471d80808142e75859a18899b113b", null ],
     [ "EnableHover", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a3d2d53bd3aabb6f54f67b4bdba292a0b", null ],
     [ "EnableSelect", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a30eba06a9d20101c5804bed48dab9166", null ],
-    [ "ID", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a9f86107d85d686b9dbe89ab9466e7ea1", null ]
+    [ "ID", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#a9f86107d85d686b9dbe89ab9466e7ea1", null ],
+    [ "SID", "classMeadowGames_1_1UINodeConnect4_1_1Connection.html#ae3eeec35e503a70cd4d22ca1b4479e3e", null ]
 ];

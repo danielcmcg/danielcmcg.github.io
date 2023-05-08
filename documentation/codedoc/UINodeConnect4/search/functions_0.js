@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['lerpline_180',['LerpLine',['../classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Line.html#a2888a6d106ed67de1234ae18c8de9609',1,'MeadowGames::UINodeConnect4::GraphicRenderer::Line']]],
-  ['lerplinelength_181',['LerpLineLength',['../classMeadowGames_1_1UINodeConnect4_1_1GraphicRenderer_1_1Line.html#a1f2b3ebfd12a775d48f2b7d6cb50f003',1,'MeadowGames::UINodeConnect4::GraphicRenderer::Line']]]
+  ['fromserializable_229',['FromSerializable',['../classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1SerializableConnection.html#a48136608e4449534c9052fc47274496e',1,'MeadowGames.UINodeConnect4.UICSerialization.SerializableConnection.FromSerializable()'],['../classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1SerializableNode.html#a222a675cbccb91576b60c5cc628d3e48',1,'MeadowGames.UINodeConnect4.UICSerialization.SerializableNode.FromSerializable()'],['../classMeadowGames_1_1UINodeConnect4_1_1UICSerialization_1_1SerializablePort.html#a334cefb8c528fc3a907060c0dcaca92e',1,'MeadowGames.UINodeConnect4.UICSerialization.SerializablePort.FromSerializable()']]]
 ];
