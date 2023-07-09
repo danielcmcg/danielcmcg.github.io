@@ -156,3 +156,8 @@ html, body {
 .active, .dot:hover {
   background-color: #717171;
 }
+
+.carousel-item
+{
+  background-color: #17191A;
+}
