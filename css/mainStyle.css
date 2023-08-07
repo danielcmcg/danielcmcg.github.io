@@ -15,6 +15,11 @@ html {
 .logosubname {
   margin-top: -1vh;
   font-size: calc(0.5vw + 2vh);
+  text-shadow:
+   -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
 }
 
 .topContainer {
